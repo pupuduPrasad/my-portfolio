@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="534b48d0-21e7-4612-b8ba-0bb0df80146c" name="Changes" comment="create my portfolio homepage">
+    <list default="true" id="534b48d0-21e7-4612-b8ba-0bb0df80146c" name="Changes" comment="create my Portfolio about page">
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -114,7 +114,7 @@
       <workItem from="1737173623720" duration="686000" />
       <workItem from="1737174616820" duration="12000" />
       <workItem from="1738815200974" duration="461000" />
-      <workItem from="1738815756296" duration="2179000" />
+      <workItem from="1738815756296" duration="2492000" />
     </task>
     <task id="LOCAL-00001" summary="create my portfolio homepage">
       <option name="closed" value="true" />
@@ -124,7 +124,23 @@
       <option name="project" value="LOCAL" />
       <updated>1738817796110</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="create my portfolio Navigation bar">
+      <option name="closed" value="true" />
+      <created>1738818040477</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1738818040477</updated>
+    </task>
+    <task id="LOCAL-00003" summary="create my Portfolio about page">
+      <option name="closed" value="true" />
+      <created>1738818221585</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1738818221585</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -132,6 +148,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="create my portfolio homepage" />
-    <option name="LAST_COMMIT_MESSAGE" value="create my portfolio homepage" />
+    <MESSAGE value="create my portfolio Navigation bar" />
+    <MESSAGE value="create my Portfolio about page" />
+    <option name="LAST_COMMIT_MESSAGE" value="create my Portfolio about page" />
   </component>
 </project>
