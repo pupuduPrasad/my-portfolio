@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="534b48d0-21e7-4612-b8ba-0bb0df80146c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/Prasad (1).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/WhatsApp Image 2025-01-01 at 18.30.52_3c12511a.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="534b48d0-21e7-4612-b8ba-0bb0df80146c" name="Changes" comment="create my portfolio homepage">
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -118,11 +114,24 @@
       <workItem from="1737173623720" duration="686000" />
       <workItem from="1737174616820" duration="12000" />
       <workItem from="1738815200974" duration="461000" />
-      <workItem from="1738815756296" duration="1813000" />
+      <workItem from="1738815756296" duration="2179000" />
     </task>
+    <task id="LOCAL-00001" summary="create my portfolio homepage">
+      <option name="closed" value="true" />
+      <created>1738817796110</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1738817796110</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="create my portfolio homepage" />
+    <option name="LAST_COMMIT_MESSAGE" value="create my portfolio homepage" />
   </component>
 </project>
