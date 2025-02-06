@@ -4,7 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="534b48d0-21e7-4612-b8ba-0bb0df80146c" name="Changes" comment="create my Portfolio about page">
+    <list default="true" id="534b48d0-21e7-4612-b8ba-0bb0df80146c" name="Changes" comment="create my Portfolio project page">
+      <change afterPath="$PROJECT_DIR$/img/certificate.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/graduation.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/skill/css-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/skill/github.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/skill/html.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/skill/java (1).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/skill/java-script.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/skill/ps.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/skill/python.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -114,7 +123,7 @@
       <workItem from="1737173623720" duration="686000" />
       <workItem from="1737174616820" duration="12000" />
       <workItem from="1738815200974" duration="461000" />
-      <workItem from="1738815756296" duration="2492000" />
+      <workItem from="1738815756296" duration="2789000" />
     </task>
     <task id="LOCAL-00001" summary="create my portfolio homepage">
       <option name="closed" value="true" />
@@ -140,7 +149,15 @@
       <option name="project" value="LOCAL" />
       <updated>1738818221585</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="create my Portfolio project page">
+      <option name="closed" value="true" />
+      <created>1738818420542</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1738818420542</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -150,6 +167,7 @@
     <MESSAGE value="create my portfolio homepage" />
     <MESSAGE value="create my portfolio Navigation bar" />
     <MESSAGE value="create my Portfolio about page" />
-    <option name="LAST_COMMIT_MESSAGE" value="create my Portfolio about page" />
+    <MESSAGE value="create my Portfolio project page" />
+    <option name="LAST_COMMIT_MESSAGE" value="create my Portfolio project page" />
   </component>
 </project>
