@@ -18,6 +18,12 @@
         <p>I'm a software engineer...  </p>
         <button id="viewWorkBtn">View My Work</button>
 
+        <!--Add JavaScript-->
+        <script>
+            document.getElementById("viewWorkBtn").addEventListener("click", function() {
+                document.getElementById("about").scrollIntoView({ behavior: "smooth" });
+            });
+        </script>
     </div>
 
 </section>
