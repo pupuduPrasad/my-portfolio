@@ -33,3 +33,24 @@
     font-size: 30px;
     margin-bottom: 20px;
 }
+/* View Work Button */
+#home button {
+    background: #f39c12;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 5px;
+}
+#viewWorkBtn{
+    position: relative;
+    border: none;
+    transition: all 0.5s;
+    z-index: 1;
+    cursor: pointer;
+    border-radius: 3px;
+    background-color: transparent;
+    color: white;
+}
