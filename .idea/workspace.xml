@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="534b48d0-21e7-4612-b8ba-0bb0df80146c" name="Changes" comment="create my Portfolio social field and my last commit">
+      <change afterPath="$PROJECT_DIR$/lib/normalize.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
@@ -51,7 +52,7 @@
     "git-widget-placeholder": "style",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/projects/my-portfolio/img",
+    "last_opened_file_path": "C:/projects/my-portfolio",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -71,27 +72,12 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\projects\my-portfolio\img" />
       <recent name="C:\projects\my-portfolio" />
+      <recent name="C:\projects\my-portfolio\img" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\projects\my-portfolio" />
     </key>
-  </component>
-  <component name="RunManager">
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="my-portfolio" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="my-portfolio" />
-      <option name="filePath" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -121,7 +107,13 @@
       <workItem from="1740195141858" duration="988000" />
       <workItem from="1740197852110" duration="4102000" />
       <workItem from="1740233052333" duration="148000" />
-      <workItem from="1741006650026" duration="415000" />
+      <workItem from="1741006650026" duration="956000" />
+      <workItem from="1741062990082" duration="2533000" />
+      <workItem from="1741071120045" duration="49000" />
+      <workItem from="1741143742812" duration="228000" />
+      <workItem from="1741402014046" duration="4629000" />
+      <workItem from="1741600479549" duration="802000" />
+      <workItem from="1741670837026" duration="2331000" />
     </task>
     <task id="LOCAL-00001" summary="create my portfolio homepage">
       <option name="closed" value="true" />

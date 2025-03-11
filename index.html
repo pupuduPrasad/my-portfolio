@@ -2,9 +2,33 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio</title>
     <link rel="icon" type="image/jpg" href="img/WhatsApp%20Image%202025-01-01%20at%2018.30.52_3c12511a.jpg">
+    <link rel="stylesheet" href="lib/normalize.css">
     <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Poppins",sans-serif;
+
+        }
+
+        /* Home Section */
+        #home {
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            background: #1b1b1b;
+            color: white;
+            padding: 100px 20px;
+        }
+
+
 
     </style>
 </head>
@@ -13,8 +37,10 @@
 <section id="home" >
     <img src="./img/prasad%20(1).png" alt="logo" width="60" height="30">
     <div >
-        <h1>hello,<br>i'am prasad</h1>
-        <p>i'm a software engineer...  <button>view my work</button></p>
+        <h1>Hello,<br>I'am prasad</h1>
+        <p>I'm a software engineer...  </p>
+        <button id="viewWorkBtn">View My Work</button>
+
     </div>
 
 </section>
@@ -32,16 +58,51 @@
 </section>
 <br>
 <!--My about-->
-<section class="photo">
-    <h1 id="about" >About</h1><br>
+<section id="about">
+    <h1 id="caption" >About</h1><br>
     <img src="img/WhatsApp%20Image%202025-01-01%20at%2018.30.52_3c12511a.jpg" alt="profile" width="250">
     <p>Hi, I’m pupudu prasad, a software engineer specializing in  web development. I have experience in  technologies and enjoy solving complex problems to create efficient, scalable solutions. I’m passionate about learning new technologies and contributing to impactful projects..</p>
+</section>
+<br>
+<!--My project area-->
+<section>
+    <h1 id="projects" >Project</h1><br>
+    <p>Get to know me!
+        I'm a Frontend Focused Web Developer building and managing the Front-end of Websites and Web Applications that leads to the success of the overall product. Check out some of my work in the Projects section</p>
+    <div>
+        <h3><i>AI Mini Game-Tic tac toi</i></h3>
+        <img src="img/tic-tac-toe.jpg" alt="tictac" width="150">
+        <p>This classic game allows two players to compete by marking Xs and Os on a 3x3 grid, aiming to align three symbols horizontally, vertically, or diagonally. It’s simple, fun, and perfect for sharpening strategic thinking!</p>
+
+    </div>
+    <div>
+        <h3><i>Event management system App</i></h3>
+        <img src="img/project-management.png" alt="event" width="150">
+        <p>Get to know me!
+            I'm a Frontend Focused Web Developer building and managing the Front-end of Websites and Web Applications that leads to the success of the overall product.</p>
+    </div>
+</section>
+<br>
+<!--My educations-->
+<section>
+    <h1 id="education" >Educations</h1><br>
+    <h3><i>It and English dual Diploma</i></h3>
+    <img src="img/graduation.png" alt="diploma1" width="100">
+    <p>Get to know me!
+        I'm a Frontend Focused Web Developer building and managing the Front-end of Websites and Web Applications that leads to the success of the overall product.
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliq</p>
+    <br><br>
+    <h3><i>Graduate Diploma in  Software Engineering</i></h3>
+    <img src="img/certificate.png" alt="diploma2" width="100">
+    <p>Get to know me!
+        I'm a Frontend Focused Web Developer building and managing the Front-end of Websites and Web Applications that leads to the success of the overall product.
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliq</p>
 </section>
 <br>
 <br>
 <!--My skills-->
 <section>
-    <h1 id="skill" >Skills</h1><br>
+    <h1 id="skills" >Skills</h1><br>
     <img src="img/skill/java-script.png" alt="js" width="70">
     <img src="img/skill/css-3.png" alt="css" width="70">
     <img src="img/skill/github.png" alt="git"width="70"><br>
