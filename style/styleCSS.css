@@ -54,3 +54,18 @@
     background-color: transparent;
     color: white;
 }
+#viewWorkBtn::before,
+#viewWorkBtn::after {
+    content: "";
+    position: absolute;
+    z-index: -1;
+}
+
+#viewWorkBtn:hover {
+    background: #f6e05e;
+    box-shadow: 0 0 5px #f6e05e,
+    0 0 25px #f6e05e,
+    0 0 50px #f6e05e,
+    0 0 200px #f6e05e;
+    color: #333;
+}

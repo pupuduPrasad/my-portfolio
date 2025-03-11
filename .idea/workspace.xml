@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="534b48d0-21e7-4612-b8ba-0bb0df80146c" name="Changes" comment="apply css my portfolio home section" />
+    <list default="true" id="534b48d0-21e7-4612-b8ba-0bb0df80146c" name="Changes" comment="apply css button">
+      <change beforePath="$PROJECT_DIR$/style/styleCSS.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/styleCSS.css" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,6 +16,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -49,6 +52,7 @@
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/projects/my-portfolio",
+    "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -109,7 +113,7 @@
       <workItem from="1741143742812" duration="228000" />
       <workItem from="1741402014046" duration="4629000" />
       <workItem from="1741600479549" duration="802000" />
-      <workItem from="1741670837026" duration="2686000" />
+      <workItem from="1741670837026" duration="2986000" />
     </task>
     <task id="LOCAL-00001" summary="create my portfolio homepage">
       <option name="closed" value="true" />
@@ -175,7 +179,31 @@
       <option name="project" value="LOCAL" />
       <updated>1741673642384</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="add the style sheet">
+      <option name="closed" value="true" />
+      <created>1741673783961</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1741673783961</updated>
+    </task>
+    <task id="LOCAL-00010" summary="apply css home content">
+      <option name="closed" value="true" />
+      <created>1741673867528</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1741673867528</updated>
+    </task>
+    <task id="LOCAL-00011" summary="apply css button">
+      <option name="closed" value="true" />
+      <created>1741673953036</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1741673953036</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -190,6 +218,9 @@
     <MESSAGE value="create my Portfolio Contact feild" />
     <MESSAGE value="create my Portfolio social field and my last commit" />
     <MESSAGE value="apply css my portfolio home section" />
-    <option name="LAST_COMMIT_MESSAGE" value="apply css my portfolio home section" />
+    <MESSAGE value="add the style sheet" />
+    <MESSAGE value="apply css home content" />
+    <MESSAGE value="apply css button" />
+    <option name="LAST_COMMIT_MESSAGE" value="apply css button" />
   </component>
 </project>
