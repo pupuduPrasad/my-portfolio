@@ -146,3 +146,7 @@ nav a:hover {
     padding: 50px 20px;
     text-align: center;
 }
+#projects h1 {
+    font-size: 3.5em;
+    margin-bottom: 30px;
+}
