@@ -227,3 +227,10 @@ nav a:hover {
     height: auto;
     margin-bottom: 15px;
 }
+
+
+#education p {
+    font-size: 17px;
+    color: white;
+    line-height: 1.6;
+}
