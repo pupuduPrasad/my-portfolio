@@ -238,4 +238,8 @@ nav a:hover {
     background: #89420a;
 }
 
-
+/* Skills Section */
+#skill {
+    padding: 50px 20px;
+    text-align: center;
+}
