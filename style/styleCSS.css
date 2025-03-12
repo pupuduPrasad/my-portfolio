@@ -199,3 +199,9 @@ nav a:hover {
     padding: 40px 20px; /* Add padding for spacing */
     text-align: center; /* Center-align the content */
 }
+
+#education h1 {
+    font-size: 32px; /* Large font size for the heading */
+    color: white; /* Dark text color */
+    margin-bottom: 30px; /* Space below the heading */
+}
