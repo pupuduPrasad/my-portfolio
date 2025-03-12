@@ -254,3 +254,8 @@ nav a:hover {
     height: auto;
     margin: 40px;
 }
+
+#skill img:hover {
+    transform: scale(1.1);
+}
+
