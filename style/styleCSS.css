@@ -3,7 +3,10 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Poppins",sans-serif;
-
+}
+body{
+    background: #1b1b1b;
+    color: white;
 }
 /* Home Section */
 #home {
@@ -13,7 +16,6 @@
     align-items: center;
     justify-content: center;
     text-align: center;
-    background: #1b1b1b;
     color: white;
     padding: 100px 20px;
 }
@@ -35,7 +37,7 @@
 }
 /* View Work Button */
 #home button {
-    background: #f39c12;
+    background: #f24c09;
     color: white;
     border: none;
     padding: 10px 20px;
@@ -62,11 +64,52 @@
 }
 
 #viewWorkBtn:hover {
-    background: #f6e05e;
-    box-shadow: 0 0 5px #f6e05e,
-    0 0 25px #f6e05e,
-    0 0 50px #f6e05e,
-    0 0 200px #f6e05e;
-    color: #333;
+    background: #f39c12;
+    box-shadow: 0 0 5px #f39c12,
+    0 0 25px #f39c12,
+    0 0 50px #f39c12,
+    0 0 200px #f39c12;
+    color: black;
+}
+
+
+nav {
+    background: rgba(0, 0, 0, 0.8);
+    padding: 15px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 20px;
+    font-size: 18px;
+    font-weight: bold;
+    transition: 0.3s;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+nav a:hover {
+    color: #00ffff;
+    background: dimgray
+}
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+    nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    nav a {
+        margin: 10px 0;
+    }
 }
 
