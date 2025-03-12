@@ -139,3 +139,10 @@ nav a:hover {
     margin: 20px auto;
     font-family: 'Arial', sans-serif;
 }
+
+/* Project Section */
+#projects {
+    color: white;
+    padding: 50px 20px;
+    text-align: center;
+}
