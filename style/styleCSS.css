@@ -163,3 +163,12 @@ nav a:hover {
     border-radius: 10px;
     max-width: 600px;
 }
+#projects div:hover {
+    background: #89420a;
+    #projects h3 {
+        font-size: 2.0em;
+        margin-bottom: 10px;
+    }
+}
+
+
