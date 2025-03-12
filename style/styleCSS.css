@@ -259,3 +259,17 @@ nav a:hover {
     transform: scale(1.1);
 }
 
+@media screen and (max-width: 768px) {
+    #education h1, #skill h1 {
+        font-size: 2rem;
+    }
+
+    #education p {
+        font-size: 0.9rem;
+        padding: 0 10px;
+    }
+
+    #education img, #skill img {
+        width: 70px;
+    }
+}
