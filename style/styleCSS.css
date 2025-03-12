@@ -150,3 +150,9 @@ nav a:hover {
     font-size: 3.5em;
     margin-bottom: 30px;
 }
+#projects p {
+    font-size: 1.2em;
+    margin-bottom: 40px;
+    line-height: 1.6;
+}
+
