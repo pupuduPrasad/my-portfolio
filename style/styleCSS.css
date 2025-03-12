@@ -113,3 +113,9 @@ nav a:hover {
     }
 }
 
+/* About Section */
+#about {
+    color: white;
+    padding: 60px 20px;
+    text-align: center;
+}
