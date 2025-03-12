@@ -171,4 +171,9 @@ nav a:hover {
     }
 }
 
-
+#projects img {
+    width: 150px;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
