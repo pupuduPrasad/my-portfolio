@@ -156,3 +156,10 @@ nav a:hover {
     line-height: 1.6;
 }
 
+#projects div {
+    background: #ffffff1a;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 10px;
+    max-width: 600px;
+}
