@@ -243,3 +243,8 @@ nav a:hover {
     padding: 50px 20px;
     text-align: center;
 }
+
+#skill h1 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+}
