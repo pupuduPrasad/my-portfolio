@@ -196,12 +196,24 @@ nav a:hover {
 
 /* Education Section Styling */
 #education {
-    padding: 40px 20px; /* Add padding for spacing */
-    text-align: center; /* Center-align the content */
+    padding: 40px 20px;
+    text-align: center;
 }
 
 #education h1 {
-    font-size: 32px; /* Large font size for the heading */
-    color: white; /* Dark text color */
-    margin-bottom: 30px; /* Space below the heading */
+    font-size: 32px;
+    color: white;
+    margin-bottom: 30px;
+}
+
+#education .education-item {
+    margin-bottom: 40px;
+    padding: 20px;
+    background-color: dimgray;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
 }
