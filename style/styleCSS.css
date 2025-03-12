@@ -248,3 +248,9 @@ nav a:hover {
     font-size: 2.5rem;
     margin-bottom: 30px;
 }
+
+#skill img {
+    width: 120px;
+    height: auto;
+    margin: 40px;
+}
