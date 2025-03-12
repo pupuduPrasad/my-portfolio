@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="534b48d0-21e7-4612-b8ba-0bb0df80146c" name="Changes" comment="start the education section apply to css part1">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="534b48d0-21e7-4612-b8ba-0bb0df80146c" name="Changes" comment="education section apply to css part3(box shadow)">
+      <change beforePath="$PROJECT_DIR$/style/styleCSS.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/styleCSS.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -132,7 +132,7 @@
       <workItem from="1741670837026" duration="4294000" />
       <workItem from="1741783556058" duration="6386000" />
       <workItem from="1741790336657" duration="183000" />
-      <workItem from="1741791954263" duration="1740000" />
+      <workItem from="1741791954263" duration="2047000" />
     </task>
     <task id="LOCAL-00001" summary="create my portfolio homepage">
       <option name="closed" value="true" />
@@ -350,15 +350,29 @@
       <option name="project" value="LOCAL" />
       <updated>1741793625362</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="education section apply to css part2">
+      <option name="closed" value="true" />
+      <created>1741793753718</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1741793753718</updated>
+    </task>
+    <task id="LOCAL-00029" summary="education section apply to css part3(box shadow)">
+      <option name="closed" value="true" />
+      <created>1741793983390</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1741793983390</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="create my portfolio Navigation bar" />
-    <MESSAGE value="create my Portfolio about page" />
     <MESSAGE value="create my Portfolio project page" />
     <MESSAGE value="create my Portfolio Skill page and Education page" />
     <MESSAGE value="create my Portfolio Contact feild" />
@@ -382,6 +396,8 @@
     <MESSAGE value="project section css apply part6" />
     <MESSAGE value="project section css apply part7" />
     <MESSAGE value="start the education section apply to css part1" />
-    <option name="LAST_COMMIT_MESSAGE" value="start the education section apply to css part1" />
+    <MESSAGE value="education section apply to css part2" />
+    <MESSAGE value="education section apply to css part3(box shadow)" />
+    <option name="LAST_COMMIT_MESSAGE" value="education section apply to css part3(box shadow)" />
   </component>
 </project>

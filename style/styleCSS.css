@@ -209,9 +209,9 @@ nav a:hover {
 #education .education-item {
     margin-bottom: 40px;
     padding: 20px;
-    background-color: dimgray;
+    background-color: #ffffff1a;
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px dimgray;
     text-align: center;
     max-width: 600px;
     margin-left: auto;
@@ -221,4 +221,9 @@ nav a:hover {
     font-size: 22px;
     color: white;
     margin-bottom: 10px;
+}
+#education img {
+    width: 80px;
+    height: auto;
+    margin-bottom: 15px;
 }
