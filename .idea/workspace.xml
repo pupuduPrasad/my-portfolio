@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="534b48d0-21e7-4612-b8ba-0bb0df80146c" name="Changes" comment="skills-box  image p updated">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style/styleCSS.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/styleCSS.css" afterDir="false" />
-    </list>
+    <list default="true" id="534b48d0-21e7-4612-b8ba-0bb0df80146c" name="Changes" comment="contact field all textarea part5" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -136,7 +132,7 @@
       <workItem from="1741790336657" duration="183000" />
       <workItem from="1741791954263" duration="3393000" />
       <workItem from="1741842988983" duration="2346000" />
-      <workItem from="1741850788505" duration="2075000" />
+      <workItem from="1741850788505" duration="2390000" />
     </task>
     <task id="LOCAL-00001" summary="create my portfolio homepage">
       <option name="closed" value="true" />
@@ -482,7 +478,47 @@
       <option name="project" value="LOCAL" />
       <updated>1741845258542</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="start the contact field applied css part1">
+      <option name="closed" value="true" />
+      <created>1741852941701</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1741852941701</updated>
+    </task>
+    <task id="LOCAL-00045" summary="contact field h1 part2">
+      <option name="closed" value="true" />
+      <created>1741853038571</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1741853038571</updated>
+    </task>
+    <task id="LOCAL-00046" summary="contact field p part3">
+      <option name="closed" value="true" />
+      <created>1741853101667</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1741853101667</updated>
+    </task>
+    <task id="LOCAL-00047" summary="contact field h4 part4">
+      <option name="closed" value="true" />
+      <created>1741853134181</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1741853134181</updated>
+    </task>
+    <task id="LOCAL-00048" summary="contact field all textarea part5">
+      <option name="closed" value="true" />
+      <created>1741853401936</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1741853401936</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -500,11 +536,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="about paragraph updated" />
-    <MESSAGE value="create the project section css apply" />
-    <MESSAGE value="project section css apply part2" />
-    <MESSAGE value="project section css apply part3" />
-    <MESSAGE value="project section css apply part4" />
     <MESSAGE value="project section css apply part5" />
     <MESSAGE value="project section css apply part6" />
     <MESSAGE value="project section css apply part7" />
@@ -525,6 +556,11 @@
     <MESSAGE value="skills-box  hover updated" />
     <MESSAGE value="skills-box  image size minimaized updated" />
     <MESSAGE value="skills-box  image p updated" />
-    <option name="LAST_COMMIT_MESSAGE" value="skills-box  image p updated" />
+    <MESSAGE value="start the contact field applied css part1" />
+    <MESSAGE value="contact field h1 part2" />
+    <MESSAGE value="contact field p part3" />
+    <MESSAGE value="contact field h4 part4" />
+    <MESSAGE value="contact field all textarea part5" />
+    <option name="LAST_COMMIT_MESSAGE" value="contact field all textarea part5" />
   </component>
 </project>
