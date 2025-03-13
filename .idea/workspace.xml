@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="534b48d0-21e7-4612-b8ba-0bb0df80146c" name="Changes" comment="updated" />
+    <list default="true" id="534b48d0-21e7-4612-b8ba-0bb0df80146c" name="Changes" comment="add the contact field media query">
+      <change beforePath="$PROJECT_DIR$/style/styleCSS.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/styleCSS.css" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -133,15 +135,7 @@
       <workItem from="1741791954263" duration="3393000" />
       <workItem from="1741842988983" duration="2346000" />
       <workItem from="1741850788505" duration="4248000" />
-      <workItem from="1741871908226" duration="2357000" />
-    </task>
-    <task id="LOCAL-00008" summary="apply css my portfolio home section">
-      <option name="closed" value="true" />
-      <created>1741673642384</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1741673642384</updated>
+      <workItem from="1741871908226" duration="2768000" />
     </task>
     <task id="LOCAL-00009" summary="add the style sheet">
       <option name="closed" value="true" />
@@ -527,7 +521,15 @@
       <option name="project" value="LOCAL" />
       <updated>1741873766522</updated>
     </task>
-    <option name="localTasksCounter" value="57" />
+    <task id="LOCAL-00057" summary="add the contact field media query">
+      <option name="closed" value="true" />
+      <created>1741874500965</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1741874500966</updated>
+    </task>
+    <option name="localTasksCounter" value="58" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -545,7 +547,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="education section apply to css part6" />
     <MESSAGE value="education section apply to css part7" />
     <MESSAGE value="Skill section apply to css part1" />
     <MESSAGE value="Apply CSS to the Skills section Part 2" />
@@ -570,6 +571,7 @@
     <MESSAGE value=" social section img css apply part3" />
     <MESSAGE value=" social section img hover part4" />
     <MESSAGE value="updated" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated" />
+    <MESSAGE value="add the contact field media query" />
+    <option name="LAST_COMMIT_MESSAGE" value="add the contact field media query" />
   </component>
 </project>

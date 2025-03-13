@@ -431,3 +431,15 @@ nav a:hover {
     transform: scale(1.2);
 }
 
+@media (max-width: 768px) {
+    #social {
+        padding: 10px;
+    }
+    #social h1 {
+        font-size: 2.5rem;
+    }
+    #social img {
+        width: 30px;
+        margin-bottom: 10px;
+    }
+}
