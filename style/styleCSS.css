@@ -380,7 +380,28 @@ nav a:hover {
 #contact button:hover {
     background: #c70039;
 }
-
+@media (max-width: 768px) {
+    #contact {
+        padding: 40px 15px;
+        max-width: 90%;
+    }
+    #contact h1 {
+        font-size: 2rem;
+    }
+    #contact p {
+        font-size: 1rem;
+    }
+    #contact h4 {
+        font-size: 0.9rem;
+    }
+    #contact textarea {
+        font-size: 0.9rem;
+    }
+    #contact button {
+        font-size: 0.9rem;
+        padding: 10px;
+    }
+}
 
 /* Social Section */
 #social {
