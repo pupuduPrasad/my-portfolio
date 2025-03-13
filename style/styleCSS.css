@@ -128,8 +128,11 @@ nav a:hover {
     object-fit: cover;
 }
 #about h1 {
-    font-size: 3rem;
-    margin-bottom: 20px;
+    font-size: 4.5rem;
+    margin-bottom: 50px;
+    position: relative;
+    top: -30px;
+
 }
 
 #about p {
@@ -147,7 +150,7 @@ nav a:hover {
     text-align: center;
 }
 #projects h1 {
-    font-size: 3.5em;
+    font-size: 4.5rem;
     margin-bottom: 30px;
 }
 #projects p {
@@ -201,7 +204,7 @@ nav a:hover {
 }
 
 #education h1 {
-    font-size: 32px;
+    font-size: 4.5rem;
     color: white;
     margin-bottom: 30px;
 }
@@ -242,22 +245,17 @@ nav a:hover {
 #skill {
     padding: 50px 20px;
     text-align: center;
+    position: relative;
+    left: 30px;
 }
 
 #skill h1 {
-    font-size: 2.5rem;
+    font-size: 4.5rem;
     margin-bottom: 30px;
+    color: white;
 }
 
-#skill img {
-    width: 120px;
-    height: auto;
-    margin: 40px;
-}
 
-#skill img:hover {
-    transform: scale(1.1);
-}
 
 @media screen and (max-width: 768px) {
     #education h1, #skill h1 {
@@ -273,3 +271,4 @@ nav a:hover {
         width: 70px;
     }
 }
+

@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="534b48d0-21e7-4612-b8ba-0bb0df80146c" name="Changes" comment="education section apply to css part3(box shadow)">
+    <list default="true" id="534b48d0-21e7-4612-b8ba-0bb0df80146c" name="Changes" comment="Apply CSS to the Skills section Part5(media)">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style/styleCSS.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/styleCSS.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -132,7 +134,8 @@
       <workItem from="1741670837026" duration="4294000" />
       <workItem from="1741783556058" duration="6386000" />
       <workItem from="1741790336657" duration="183000" />
-      <workItem from="1741791954263" duration="2047000" />
+      <workItem from="1741791954263" duration="3393000" />
+      <workItem from="1741842988983" duration="1689000" />
     </task>
     <task id="LOCAL-00001" summary="create my portfolio homepage">
       <option name="closed" value="true" />
@@ -366,22 +369,96 @@
       <option name="project" value="LOCAL" />
       <updated>1741793983390</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="education section apply to css part4">
+      <option name="closed" value="true" />
+      <created>1741794105819</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1741794105819</updated>
+    </task>
+    <task id="LOCAL-00031" summary="education section apply to css part5(img)">
+      <option name="closed" value="true" />
+      <created>1741794215325</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1741794215325</updated>
+    </task>
+    <task id="LOCAL-00032" summary="education section apply to css part6">
+      <option name="closed" value="true" />
+      <created>1741794281338</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1741794281338</updated>
+    </task>
+    <task id="LOCAL-00033" summary="education section apply to css part7">
+      <option name="closed" value="true" />
+      <created>1741794565331</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1741794565331</updated>
+    </task>
+    <task id="LOCAL-00034" summary="Skill section apply to css part1">
+      <option name="closed" value="true" />
+      <created>1741794605990</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1741794605990</updated>
+    </task>
+    <task id="LOCAL-00035" summary="Apply CSS to the Skills section Part 2">
+      <option name="closed" value="true" />
+      <created>1741794857566</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1741794857566</updated>
+    </task>
+    <task id="LOCAL-00036" summary="Apply CSS to the Skills section Part 3(img)">
+      <option name="closed" value="true" />
+      <created>1741795070287</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1741795070287</updated>
+    </task>
+    <task id="LOCAL-00037" summary="Apply CSS to the Skills section Part4(hover)">
+      <option name="closed" value="true" />
+      <created>1741795122643</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1741795122643</updated>
+    </task>
+    <task id="LOCAL-00038" summary="Apply CSS to the Skills section Part5(media)">
+      <option name="closed" value="true" />
+      <created>1741795367025</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1741795367025</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="create my Portfolio project page" />
-    <MESSAGE value="create my Portfolio Skill page and Education page" />
-    <MESSAGE value="create my Portfolio Contact feild" />
-    <MESSAGE value="create my Portfolio social field and my last commit" />
-    <MESSAGE value="apply css my portfolio home section" />
-    <MESSAGE value="add the style sheet" />
-    <MESSAGE value="apply css home content" />
-    <MESSAGE value="apply css button" />
-    <MESSAGE value="apply css button part2" />
     <MESSAGE value="apply javascript navigate to about section" />
     <MESSAGE value="home section updated and navigation bar created" />
     <MESSAGE value="start the about section" />
@@ -398,6 +475,15 @@
     <MESSAGE value="start the education section apply to css part1" />
     <MESSAGE value="education section apply to css part2" />
     <MESSAGE value="education section apply to css part3(box shadow)" />
-    <option name="LAST_COMMIT_MESSAGE" value="education section apply to css part3(box shadow)" />
+    <MESSAGE value="education section apply to css part4" />
+    <MESSAGE value="education section apply to css part5(img)" />
+    <MESSAGE value="education section apply to css part6" />
+    <MESSAGE value="education section apply to css part7" />
+    <MESSAGE value="Skill section apply to css part1" />
+    <MESSAGE value="Apply CSS to the Skills section Part 2" />
+    <MESSAGE value="Apply CSS to the Skills section Part 3(img)" />
+    <MESSAGE value="Apply CSS to the Skills section Part4(hover)" />
+    <MESSAGE value="Apply CSS to the Skills section Part5(media)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Apply CSS to the Skills section Part5(media)" />
   </component>
 </project>
