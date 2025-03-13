@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="534b48d0-21e7-4612-b8ba-0bb0df80146c" name="Changes" comment="Apply CSS to the Skills section Part5(media)">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    <list default="true" id="534b48d0-21e7-4612-b8ba-0bb0df80146c" name="Changes" comment="skills-container  updated">
       <change beforePath="$PROJECT_DIR$/style/styleCSS.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/styleCSS.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -135,7 +133,7 @@
       <workItem from="1741783556058" duration="6386000" />
       <workItem from="1741790336657" duration="183000" />
       <workItem from="1741791954263" duration="3393000" />
-      <workItem from="1741842988983" duration="1689000" />
+      <workItem from="1741842988983" duration="2022000" />
     </task>
     <task id="LOCAL-00001" summary="create my portfolio homepage">
       <option name="closed" value="true" />
@@ -441,7 +439,23 @@
       <option name="project" value="LOCAL" />
       <updated>1741795367025</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="skill section updated">
+      <option name="closed" value="true" />
+      <created>1741844821031</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1741844821031</updated>
+    </task>
+    <task id="LOCAL-00040" summary="skills-container  updated">
+      <option name="closed" value="true" />
+      <created>1741844915112</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1741844915112</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -459,8 +473,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="apply javascript navigate to about section" />
-    <MESSAGE value="home section updated and navigation bar created" />
     <MESSAGE value="start the about section" />
     <MESSAGE value="about image css apply" />
     <MESSAGE value="about updated" />
@@ -484,6 +496,8 @@
     <MESSAGE value="Apply CSS to the Skills section Part 3(img)" />
     <MESSAGE value="Apply CSS to the Skills section Part4(hover)" />
     <MESSAGE value="Apply CSS to the Skills section Part5(media)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Apply CSS to the Skills section Part5(media)" />
+    <MESSAGE value="skill section updated" />
+    <MESSAGE value="skills-container  updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="skills-container  updated" />
   </component>
 </project>
