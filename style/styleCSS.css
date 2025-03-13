@@ -379,3 +379,8 @@ nav a:hover {
     margin-bottom: 0;
     font-size: 3.5rem;
 }
+
+#social a {
+    margin: 10px;
+    display: inline-block;
+}
