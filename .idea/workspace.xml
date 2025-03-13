@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="534b48d0-21e7-4612-b8ba-0bb0df80146c" name="Changes" comment="skills-container  updated">
+    <list default="true" id="534b48d0-21e7-4612-b8ba-0bb0df80146c" name="Changes" comment="skills-box  image p updated">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style/styleCSS.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/styleCSS.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -133,7 +135,8 @@
       <workItem from="1741783556058" duration="6386000" />
       <workItem from="1741790336657" duration="183000" />
       <workItem from="1741791954263" duration="3393000" />
-      <workItem from="1741842988983" duration="2022000" />
+      <workItem from="1741842988983" duration="2346000" />
+      <workItem from="1741850788505" duration="2075000" />
     </task>
     <task id="LOCAL-00001" summary="create my portfolio homepage">
       <option name="closed" value="true" />
@@ -455,7 +458,31 @@
       <option name="project" value="LOCAL" />
       <updated>1741844915112</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="skills-box  hover updated">
+      <option name="closed" value="true" />
+      <created>1741845086443</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1741845086443</updated>
+    </task>
+    <task id="LOCAL-00042" summary="skills-box  image size minimaized updated">
+      <option name="closed" value="true" />
+      <created>1741845205060</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1741845205060</updated>
+    </task>
+    <task id="LOCAL-00043" summary="skills-box  image p updated">
+      <option name="closed" value="true" />
+      <created>1741845258542</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1741845258542</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -473,9 +500,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="start the about section" />
-    <MESSAGE value="about image css apply" />
-    <MESSAGE value="about updated" />
     <MESSAGE value="about paragraph updated" />
     <MESSAGE value="create the project section css apply" />
     <MESSAGE value="project section css apply part2" />
@@ -498,6 +522,9 @@
     <MESSAGE value="Apply CSS to the Skills section Part5(media)" />
     <MESSAGE value="skill section updated" />
     <MESSAGE value="skills-container  updated" />
-    <option name="LAST_COMMIT_MESSAGE" value="skills-container  updated" />
+    <MESSAGE value="skills-box  hover updated" />
+    <MESSAGE value="skills-box  image size minimaized updated" />
+    <MESSAGE value="skills-box  image p updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="skills-box  image p updated" />
   </component>
 </project>
