@@ -254,6 +254,20 @@ nav a:hover {
 #education .education-item:hover{
     background: #89420a;
 }
+@media screen and (max-width: 768px) {
+    #education h1 {
+        font-size: 2rem;
+    }
+
+    #education p {
+        font-size: 0.9rem;
+        padding: 0 10px;
+    }
+
+    #education img {
+        width: 70px;
+    }
+}
 
 /* Skills Section */
 #skills {
@@ -304,21 +318,29 @@ nav a:hover {
     color: white;
 }
 
-
-@media screen and (max-width: 768px) {
-    #education h1, #skill h1 {
-        font-size: 2rem;
+@media (max-width: 768px) {
+    #skills h1 {
+        font-size: 3rem;
     }
 
-    #education p {
-        font-size: 0.9rem;
-        padding: 0 10px;
+    .skills-container {
+        grid-template-columns: repeat(1, 1fr); /* Single column layout */
     }
 
-    #education img, #skill img {
+    .skill-box {
+        width: 90%;
+        padding: 20px;
+    }
+
+    .skill-box img {
         width: 70px;
     }
+
+    .skill-box p {
+        font-size: 0.9rem;
+    }
 }
+
 
 /* Contact Section Styling */
 #contact {
