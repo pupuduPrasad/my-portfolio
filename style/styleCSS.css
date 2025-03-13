@@ -316,3 +316,9 @@ nav a:hover {
     margin: auto;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
 }
+
+#contact h1{
+    font-size: 3.5rem;
+    margin-bottom:0;
+    margin-top: 0;
+}
