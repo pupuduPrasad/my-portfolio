@@ -278,6 +278,11 @@ nav a:hover {
 .skill-box:hover {
     transform: scale(1.1);
 }
+.skill-box img {
+    width: 100px;
+    height: auto;
+    margin-bottom: 10px;
+}
 
 @media screen and (max-width: 768px) {
     #education h1, #skill h1 {
