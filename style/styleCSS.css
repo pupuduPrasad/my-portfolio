@@ -364,3 +364,18 @@ nav a:hover {
 #contact button:hover {
     background: #c70039;
 }
+
+
+/* Social Section */
+#social {
+    text-align: center;
+    padding: 5px 10px;
+    background: linear-gradient(to right, #1a1a1a, #333);
+    color: white;
+    border-radius: 10px;
+}
+
+#social h1{
+    margin-bottom: 0;
+    font-size: 3.5rem;
+}
