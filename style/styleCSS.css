@@ -384,3 +384,9 @@ nav a:hover {
     margin: 10px;
     display: inline-block;
 }
+#social img {
+    width: 40px;
+    height: auto;
+    transition: 0.2s;
+    margin-bottom: 20px;
+}

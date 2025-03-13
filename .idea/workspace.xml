@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="534b48d0-21e7-4612-b8ba-0bb0df80146c" name="Changes" comment="create the social section part1">
-      <change beforePath="$PROJECT_DIR$/style/styleCSS.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/styleCSS.css" afterDir="false" />
-    </list>
+    <list default="true" id="534b48d0-21e7-4612-b8ba-0bb0df80146c" name="Changes" comment=" social section part2" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -134,15 +132,7 @@
       <workItem from="1741790336657" duration="183000" />
       <workItem from="1741791954263" duration="3393000" />
       <workItem from="1741842988983" duration="2346000" />
-      <workItem from="1741850788505" duration="3296000" />
-    </task>
-    <task id="LOCAL-00004" summary="create my Portfolio project page">
-      <option name="closed" value="true" />
-      <created>1738818420542</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1738818420542</updated>
+      <workItem from="1741850788505" duration="3818000" />
     </task>
     <task id="LOCAL-00005" summary="create my Portfolio Skill page and Education page">
       <option name="closed" value="true" />
@@ -528,7 +518,15 @@
       <option name="project" value="LOCAL" />
       <updated>1741854308961</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary=" social section part2">
+      <option name="closed" value="true" />
+      <created>1741854357438</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1741854357438</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -546,7 +544,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="education section apply to css part2" />
     <MESSAGE value="education section apply to css part3(box shadow)" />
     <MESSAGE value="education section apply to css part4" />
     <MESSAGE value="education section apply to css part5(img)" />
@@ -571,6 +568,7 @@
     <MESSAGE value="contact field button part7" />
     <MESSAGE value="contact field button part8" />
     <MESSAGE value="create the social section part1" />
-    <option name="LAST_COMMIT_MESSAGE" value="create the social section part1" />
+    <MESSAGE value=" social section part2" />
+    <option name="LAST_COMMIT_MESSAGE" value=" social section part2" />
   </component>
 </project>
