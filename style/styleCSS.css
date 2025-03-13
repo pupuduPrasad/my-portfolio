@@ -360,3 +360,7 @@ nav a:hover {
     transition: 0.3s;
     margin-top: 10px;
 }
+
+#contact button:hover {
+    background: #c70039;
+}
