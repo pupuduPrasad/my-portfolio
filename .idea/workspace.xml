@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="534b48d0-21e7-4612-b8ba-0bb0df80146c" name="Changes" comment="add the contact field media query">
+    <list default="true" id="534b48d0-21e7-4612-b8ba-0bb0df80146c" name="Changes" comment="updated skill section media css code">
+      <change afterPath="$PROJECT_DIR$/img/dp.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style/styleCSS.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/styleCSS.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -52,7 +55,7 @@
     &quot;git-widget-placeholder&quot;: &quot;style&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/projects/my-portfolio&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/projects/my-portfolio/img&quot;,
     &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -135,23 +138,9 @@
       <workItem from="1741791954263" duration="3393000" />
       <workItem from="1741842988983" duration="2346000" />
       <workItem from="1741850788505" duration="4248000" />
-      <workItem from="1741871908226" duration="2768000" />
-    </task>
-    <task id="LOCAL-00009" summary="add the style sheet">
-      <option name="closed" value="true" />
-      <created>1741673783961</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1741673783961</updated>
-    </task>
-    <task id="LOCAL-00010" summary="apply css home content">
-      <option name="closed" value="true" />
-      <created>1741673867528</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1741673867528</updated>
+      <workItem from="1741871908226" duration="3210000" />
+      <workItem from="1741926050758" duration="1720000" />
+      <workItem from="1741960919751" duration="474000" />
     </task>
     <task id="LOCAL-00011" summary="apply css button">
       <option name="closed" value="true" />
@@ -529,7 +518,23 @@
       <option name="project" value="LOCAL" />
       <updated>1741874500966</updated>
     </task>
-    <option name="localTasksCounter" value="58" />
+    <task id="LOCAL-00058" summary="add the social field media query">
+      <option name="closed" value="true" />
+      <created>1741874759503</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1741874759503</updated>
+    </task>
+    <task id="LOCAL-00059" summary="updated skill section media css code">
+      <option name="closed" value="true" />
+      <created>1741875140711</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1741875140711</updated>
+    </task>
+    <option name="localTasksCounter" value="60" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -547,8 +552,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="education section apply to css part7" />
-    <MESSAGE value="Skill section apply to css part1" />
     <MESSAGE value="Apply CSS to the Skills section Part 2" />
     <MESSAGE value="Apply CSS to the Skills section Part 3(img)" />
     <MESSAGE value="Apply CSS to the Skills section Part4(hover)" />
@@ -572,6 +575,8 @@
     <MESSAGE value=" social section img hover part4" />
     <MESSAGE value="updated" />
     <MESSAGE value="add the contact field media query" />
-    <option name="LAST_COMMIT_MESSAGE" value="add the contact field media query" />
+    <MESSAGE value="add the social field media query" />
+    <MESSAGE value="updated skill section media css code" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated skill section media css code" />
   </component>
 </project>
