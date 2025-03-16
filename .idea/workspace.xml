@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="534b48d0-21e7-4612-b8ba-0bb0df80146c" name="Changes" comment="update button">
-      <change afterPath="$PROJECT_DIR$/img/bgwblogo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    <list default="true" id="534b48d0-21e7-4612-b8ba-0bb0df80146c" name="Changes" comment="update media query">
       <change beforePath="$PROJECT_DIR$/style/styleCSS.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/styleCSS.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -146,14 +143,7 @@
       <workItem from="1742019830330" duration="1916000" />
       <workItem from="1742026161524" duration="5869000" />
       <workItem from="1742096295166" duration="3114000" />
-    </task>
-    <task id="LOCAL-00012" summary="apply css button part2">
-      <option name="closed" value="true" />
-      <created>1741673991327</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1741673991327</updated>
+      <workItem from="1742101291986" duration="485000" />
     </task>
     <task id="LOCAL-00013" summary="apply javascript navigate to about section">
       <option name="closed" value="true" />
@@ -539,7 +529,15 @@
       <option name="project" value="LOCAL" />
       <updated>1741961427202</updated>
     </task>
-    <option name="localTasksCounter" value="61" />
+    <task id="LOCAL-00061" summary="update media query">
+      <option name="closed" value="true" />
+      <created>1742101333489</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1742101333489</updated>
+    </task>
+    <option name="localTasksCounter" value="62" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -557,7 +555,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Apply CSS to the Skills section Part 3(img)" />
     <MESSAGE value="Apply CSS to the Skills section Part4(hover)" />
     <MESSAGE value="Apply CSS to the Skills section Part5(media)" />
     <MESSAGE value="skill section updated" />
@@ -582,6 +579,7 @@
     <MESSAGE value="add the social field media query" />
     <MESSAGE value="updated skill section media css code" />
     <MESSAGE value="update button" />
-    <option name="LAST_COMMIT_MESSAGE" value="update button" />
+    <MESSAGE value="update media query" />
+    <option name="LAST_COMMIT_MESSAGE" value="update media query" />
   </component>
 </project>

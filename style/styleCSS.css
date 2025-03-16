@@ -53,7 +53,7 @@ body{
 }
 /* View Work Button */
 #home button {
-    background: #f24c09;
+    background: linear-gradient(coral,red);
     color: white;
     border: none;
     padding: 10px 20px;
@@ -80,7 +80,7 @@ body{
 /*}*/
 
 #viewWorkBtn:hover {
-    background: #f39c12;
+    background: linear-gradient(red,darkorange);
     box-shadow: 0 0 5px #f39c12;
     color: black;
 }
