@@ -3,6 +3,8 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Poppins",sans-serif;
+
+
 }
 body{
     background: #1b1b1b;
@@ -19,13 +21,24 @@ body{
     color: white;
     padding: 100px 20px;
 }
+#home div h1{
+    display: inline;
+}
+#home div h1:nth-child(2){
+    color: chocolate;
+}
+#home div{
+    position: relative;
+    left: -400px;
+}
 #home div h1:hover,#home div p:hover{
     color: aqua;
 }
 #home img {
-    width: 900px;
+    width: 850px;
+    height: 640px;
     position: absolute;
-    top: 20px;
+    top: 70px;
     right: 0;
     /*transform-style: 0.5px;*/
 }
@@ -59,19 +72,16 @@ body{
     background-color: transparent;
     color: white;
 }
-#viewWorkBtn::before,
-#viewWorkBtn::after {
-    content: "";
-    position: absolute;
-    z-index: -1;
-}
+/*#viewWorkBtn::before,*/
+/*#viewWorkBtn::after {*/
+/*    content: "";*/
+/*    position: absolute;*/
+/*    z-index: -1;*/
+/*}*/
 
 #viewWorkBtn:hover {
     background: #f39c12;
-    box-shadow: 0 0 5px #f39c12,
-    0 0 25px #f39c12,
-    0 0 50px #f39c12,
-    0 0 200px #f39c12;
+    box-shadow: 0 0 5px #f39c12;
     color: black;
 }
 
@@ -119,33 +129,111 @@ nav a:hover {
 
 /* About Section start*/
 #about {
+    height: 100vh;
     color: white;
     padding: 60px 20px;
     text-align: center;
+    position: relative;
 }
 
+
 #about img {
-    border-radius: 50%;
+    border-radius: 10%;
     margin-top: 20px;
-    width: 200px;
-    height: 200px;
-    object-fit: cover;
+    width: 300px;
+    height: auto;
+    position: absolute;
+    left: 300px;
 }
 #about h1 {
     font-size: 4.5rem;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
     position: relative;
     top: -30px;
 
 }
 
 #about p {
+    position: absolute;
+    right: 200px;
+    top: 300px;
     font-size: 1.2rem;
     line-height: 1.6;
-    max-width: 800px;
+    max-width: 600px;
     margin: 20px auto;
     font-family: 'Arial', sans-serif;
 }
+
+/*@media screen and (max-width: 768px) {*/
+/*    #about img {*/
+/*        position: static;*/
+/*        display: block;*/
+/*        margin: 20px auto;*/
+/*    }*/
+
+/*    #about p {*/
+/*        position: static;*/
+/*        text-align: center;*/
+/*        margin: 20px auto;*/
+/*    }*/
+/*}*/
+/* Media Query for About Section */
+@media screen and (max-width: 768px) {
+    #about {
+        height: auto;
+        padding: 40px 20px;
+    }
+
+    #about img {
+        position: static;
+        display: block;
+        margin: 20px auto;
+        width: 250px; /* Adjust width for better fit */
+    }
+
+    #about h1 {
+        font-size: 3rem; /* Adjust heading size */
+        top: 0;
+    }
+
+    #about p {
+        position: static;
+        text-align: center;
+        font-size: 1rem;
+        max-width: 90%;
+        margin: 20px auto;
+    }
+}
+
+/* Media Query for Projects Section */
+@media screen and (max-width: 768px) {
+    #projects {
+        padding: 20px;
+    }
+
+    #projects h1 {
+        font-size: 2.5rem;
+    }
+
+    #projects p {
+        font-size: 1rem;
+    }
+
+    #projectContent {
+        display: block; /* Stack project items */
+        text-align: center;
+    }
+
+    #projectContent div {
+        max-width: 90%;
+        margin: 20px auto;
+    }
+
+    #projects img {
+        width: 100px; /* Adjust image size */
+    }
+}
+
 
 /* Project Section */
 #projects {
@@ -171,6 +259,7 @@ nav a:hover {
 #projectContent div {
     /*background: #ffffff1a;*/
     background: linear-gradient(to right, #1a1a1a, #333, #1a1a1a);
+    box-shadow: 0 4px 8px dimgray;
     padding: 20px;
     margin: 20px auto;
     border-radius: 10px;
@@ -192,20 +281,20 @@ nav a:hover {
 }
 
 
-@media screen and (max-width: 768px) {
-    #projects div {
-        max-width: 90%;
-        }
-    #projects img {
-        width: 100px;
-    }
-    #projects h1 {
-        font-size: 2em;
-    }
-    #projects p {
-        font-size: 1em;
-    }
-}
+/*@media screen and (max-width: 768px) {*/
+/*    #projects div {*/
+/*        max-width: 90%;*/
+/*        }*/
+/*    #projects img {*/
+/*        width: 100px;*/
+/*    }*/
+/*    #projects h1 {*/
+/*        font-size: 2em;*/
+/*    }*/
+/*    #projects p {*/
+/*        font-size: 1em;*/
+/*    }*/
+/*}*/
 
 /* Education Section Styling */
 #education {

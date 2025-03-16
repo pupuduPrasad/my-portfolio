@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="534b48d0-21e7-4612-b8ba-0bb0df80146c" name="Changes" comment="updated skill section media css code">
-      <change afterPath="$PROJECT_DIR$/img/dp.jpg" afterDir="false" />
+    <list default="true" id="534b48d0-21e7-4612-b8ba-0bb0df80146c" name="Changes" comment="update button">
+      <change afterPath="$PROJECT_DIR$/img/bgwblogo.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style/styleCSS.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/styleCSS.css" afterDir="false" />
@@ -76,8 +76,8 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\projects\my-portfolio" />
       <recent name="C:\projects\my-portfolio\img" />
+      <recent name="C:\projects\my-portfolio" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\projects\my-portfolio" />
@@ -140,15 +140,12 @@
       <workItem from="1741850788505" duration="4248000" />
       <workItem from="1741871908226" duration="3210000" />
       <workItem from="1741926050758" duration="1720000" />
-      <workItem from="1741960919751" duration="474000" />
-    </task>
-    <task id="LOCAL-00011" summary="apply css button">
-      <option name="closed" value="true" />
-      <created>1741673953036</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1741673953036</updated>
+      <workItem from="1741960919751" duration="1525000" />
+      <workItem from="1742007181565" duration="4184000" />
+      <workItem from="1742011788401" duration="638000" />
+      <workItem from="1742019830330" duration="1916000" />
+      <workItem from="1742026161524" duration="5869000" />
+      <workItem from="1742096295166" duration="3114000" />
     </task>
     <task id="LOCAL-00012" summary="apply css button part2">
       <option name="closed" value="true" />
@@ -534,7 +531,15 @@
       <option name="project" value="LOCAL" />
       <updated>1741875140711</updated>
     </task>
-    <option name="localTasksCounter" value="60" />
+    <task id="LOCAL-00060" summary="update button">
+      <option name="closed" value="true" />
+      <created>1741961427201</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1741961427202</updated>
+    </task>
+    <option name="localTasksCounter" value="61" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -552,7 +557,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Apply CSS to the Skills section Part 2" />
     <MESSAGE value="Apply CSS to the Skills section Part 3(img)" />
     <MESSAGE value="Apply CSS to the Skills section Part4(hover)" />
     <MESSAGE value="Apply CSS to the Skills section Part5(media)" />
@@ -577,6 +581,7 @@
     <MESSAGE value="add the contact field media query" />
     <MESSAGE value="add the social field media query" />
     <MESSAGE value="updated skill section media css code" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated skill section media css code" />
+    <MESSAGE value="update button" />
+    <option name="LAST_COMMIT_MESSAGE" value="update button" />
   </component>
 </project>
