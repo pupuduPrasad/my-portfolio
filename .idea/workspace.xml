@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="534b48d0-21e7-4612-b8ba-0bb0df80146c" name="Changes" comment="update color">
+    <list default="true" id="534b48d0-21e7-4612-b8ba-0bb0df80146c" name="Changes" comment="update contact field">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style/styleCSS.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/styleCSS.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -146,15 +145,11 @@
       <workItem from="1742026161524" duration="5869000" />
       <workItem from="1742096295166" duration="3114000" />
       <workItem from="1742101291986" duration="644000" />
-      <workItem from="1742280036379" duration="632000" />
-    </task>
-    <task id="LOCAL-00014" summary="home section updated and navigation bar created">
-      <option name="closed" value="true" />
-      <created>1741790441721</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1741790441721</updated>
+      <workItem from="1742280036379" duration="958000" />
+      <workItem from="1742291976063" duration="158000" />
+      <workItem from="1742400557794" duration="1000" />
+      <workItem from="1742475399589" duration="68000" />
+      <workItem from="1742560044746" duration="473000" />
     </task>
     <task id="LOCAL-00015" summary="start the about section">
       <option name="closed" value="true" />
@@ -540,7 +535,15 @@
       <option name="project" value="LOCAL" />
       <updated>1742101890722</updated>
     </task>
-    <option name="localTasksCounter" value="63" />
+    <task id="LOCAL-00063" summary="update contact field">
+      <option name="closed" value="true" />
+      <created>1742280980018</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1742280980019</updated>
+    </task>
+    <option name="localTasksCounter" value="64" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -558,7 +561,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Apply CSS to the Skills section Part5(media)" />
     <MESSAGE value="skill section updated" />
     <MESSAGE value="skills-container  updated" />
     <MESSAGE value="skills-box  hover updated" />
@@ -583,6 +585,7 @@
     <MESSAGE value="update button" />
     <MESSAGE value="update media query" />
     <MESSAGE value="update color" />
-    <option name="LAST_COMMIT_MESSAGE" value="update color" />
+    <MESSAGE value="update contact field" />
+    <option name="LAST_COMMIT_MESSAGE" value="update contact field" />
   </component>
 </project>

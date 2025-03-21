@@ -23,6 +23,7 @@ body{
 }
 #home div h1{
     display: inline;
+    
 }
 #home div h1:nth-child(2){
     color: chocolate;
@@ -33,6 +34,7 @@ body{
 }
 #home div h1:hover,#home div p:hover{
     color: aqua;
+
 }
 #home img {
     width: 850px;
@@ -114,18 +116,7 @@ nav a:hover {
     color: #00ffff;
     background: dimgray
 }
-/* Responsive Design */
-@media screen and (max-width: 768px) {
-    nav {
-        display: inline;
-        flex-direction: column;
-        align-items: center;
-    }
-    nav a {
-        margin: 10px 0;
-        font-size: 10px;
-    }
-}
+
 
 /* About Section start*/
 #about {
@@ -164,75 +155,7 @@ nav a:hover {
     font-family: 'Arial', sans-serif;
 }
 
-/*@media screen and (max-width: 768px) {*/
-/*    #about img {*/
-/*        position: static;*/
-/*        display: block;*/
-/*        margin: 20px auto;*/
-/*    }*/
 
-/*    #about p {*/
-/*        position: static;*/
-/*        text-align: center;*/
-/*        margin: 20px auto;*/
-/*    }*/
-/*}*/
-/* Media Query for About Section */
-@media screen and (max-width: 768px) {
-    #about {
-        height: auto;
-        padding: 40px 20px;
-    }
-
-    #about img {
-        position: static;
-        display: block;
-        margin: 20px auto;
-        width: 250px; /* Adjust width for better fit */
-    }
-
-    #about h1 {
-        font-size: 3rem; /* Adjust heading size */
-        top: 0;
-    }
-
-    #about p {
-        position: static;
-        text-align: center;
-        font-size: 1rem;
-        max-width: 90%;
-        margin: 20px auto;
-    }
-}
-
-/* Media Query for Projects Section */
-@media screen and (max-width: 768px) {
-    #projects {
-        padding: 20px;
-    }
-
-    #projects h1 {
-        font-size: 2.5rem;
-    }
-
-    #projects p {
-        font-size: 1rem;
-    }
-
-    #projectContent {
-        display: block; /* Stack project items */
-        text-align: center;
-    }
-
-    #projectContent div {
-        max-width: 90%;
-        margin: 20px auto;
-    }
-
-    #projects img {
-        width: 100px; /* Adjust image size */
-    }
-}
 
 
 /* Project Section */
@@ -281,21 +204,6 @@ nav a:hover {
     margin-bottom: 15px;
 }
 
-
-/*@media screen and (max-width: 768px) {*/
-/*    #projects div {*/
-/*        max-width: 90%;*/
-/*        }*/
-/*    #projects img {*/
-/*        width: 100px;*/
-/*    }*/
-/*    #projects h1 {*/
-/*        font-size: 2em;*/
-/*    }*/
-/*    #projects p {*/
-/*        font-size: 1em;*/
-/*    }*/
-/*}*/
 
 /* Education Section Styling */
 #education {
@@ -346,20 +254,7 @@ nav a:hover {
 #education .education-item:hover{
     background: #89420a;
 }
-@media screen and (max-width: 768px) {
-    #education h1 {
-        font-size: 2rem;
-    }
 
-    #education p {
-        font-size: 0.9rem;
-        padding: 0 10px;
-    }
-
-    #education img {
-        width: 70px;
-    }
-}
 
 /* Skills Section */
 #skills {
@@ -411,28 +306,7 @@ nav a:hover {
     color: white;
 }
 
-@media (max-width: 768px) {
-    #skills h1 {
-        font-size: 3rem;
-    }
 
-    .skills-container {
-        grid-template-columns: repeat(1, 1fr); /* Single column layout */
-    }
-
-    .skill-box {
-        width: 90%;
-        padding: 20px;
-    }
-
-    .skill-box img {
-        width: 70px;
-    }
-
-    .skill-box p {
-        font-size: 0.9rem;
-    }
-}
 
 
 /* Contact Section Styling */
@@ -503,28 +377,7 @@ nav a:hover {
 #contact button:hover {
     background: #c70039;
 }
-@media (max-width: 768px) {
-    #contact {
-        padding: 40px 15px;
-        max-width: 90%;
-    }
-    #contact h1 {
-        font-size: 2rem;
-    }
-    #contact p {
-        font-size: 1rem;
-    }
-    #contact h4 {
-        font-size: 0.9rem;
-    }
-    #contact textarea {
-        font-size: 0.9rem;
-    }
-    #contact button {
-        font-size: 0.9rem;
-        padding: 10px;
-    }
-}
+
 
 /* Social Section */
 #social {
@@ -553,7 +406,138 @@ nav a:hover {
 #social img:hover {
     transform: scale(1.2);
 }
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+    nav {
+        display: inline;
+        flex-direction: column;
+        align-items: center;
+    }
+    nav a {
+        margin: 10px 0;
+        font-size: 10px;
+    }
+}
 
+/* Media Query for About Section */
+@media screen and (max-width: 768px) {
+    #about {
+        height: auto;
+        padding: 40px 20px;
+    }
+
+    #about img {
+        position: static;
+        display: block;
+        margin: 20px auto;
+        width: 250px; /* Adjust width for better fit */
+    }
+
+    #about h1 {
+        font-size: 3rem; /* Adjust heading size */
+        top: 0;
+
+    }
+
+    #about p {
+        position: static;
+        text-align: center;
+        font-size: 1rem;
+        max-width: 90%;
+        margin: 20px auto;
+    }
+}
+
+/* Media Query for Projects Section */
+@media screen and (max-width: 768px) {
+    #projects {
+        padding: 20px;
+    }
+
+    #projects h1 {
+        font-size: 2.5rem;
+    }
+
+    #projects p {
+        font-size: 1rem;
+    }
+
+    #projectContent {
+        display: block; /* Stack project items */
+        text-align: center;
+    }
+
+    #projectContent div {
+        max-width: 90%;
+        margin: 20px auto;
+    }
+
+    #projects img {
+        width: 100px; /* Adjust image size */
+    }
+}
+/*education media*/
+@media screen and (max-width: 768px) {
+    #education h1 {
+        font-size: 2rem;
+    }
+
+    #education p {
+        font-size: 0.9rem;
+        padding: 0 10px;
+    }
+
+    #education img {
+        width: 70px;
+    }
+}
+/*skill media */
+@media (max-width: 768px) {
+    #skills h1 {
+        font-size: 3rem;
+    }
+
+    .skills-container {
+        grid-template-columns: repeat(1, 1fr); /* Single column layout */
+    }
+
+    .skill-box {
+        width: 90%;
+        padding: 20px;
+    }
+
+    .skill-box img {
+        width: 70px;
+    }
+
+    .skill-box p {
+        font-size: 0.9rem;
+    }
+}
+/*contact media*/
+@media (max-width: 768px) {
+    #contact {
+        padding: 40px 15px;
+        max-width: 90%;
+    }
+    #contact h1 {
+        font-size: 2rem;
+    }
+    #contact p {
+        font-size: 1rem;
+    }
+    #contact h4 {
+        font-size: 0.9rem;
+    }
+    #contact textarea {
+        font-size: 0.9rem;
+    }
+    #contact button {
+        font-size: 0.9rem;
+        padding: 10px;
+    }
+}
+/*social media query*/
 @media (max-width: 768px) {
     #social {
         padding: 10px;
