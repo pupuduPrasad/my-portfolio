@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="534b48d0-21e7-4612-b8ba-0bb0df80146c" name="Changes" comment="update contact field">
+    <list default="true" id="534b48d0-21e7-4612-b8ba-0bb0df80146c" name="Changes" comment="media updated">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style/styleCSS.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/styleCSS.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -149,15 +150,8 @@
       <workItem from="1742291976063" duration="158000" />
       <workItem from="1742400557794" duration="1000" />
       <workItem from="1742475399589" duration="68000" />
-      <workItem from="1742560044746" duration="473000" />
-    </task>
-    <task id="LOCAL-00015" summary="start the about section">
-      <option name="closed" value="true" />
-      <created>1741792177560</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1741792177560</updated>
+      <workItem from="1742560044746" duration="2125000" />
+      <workItem from="1742573670419" duration="642000" />
     </task>
     <task id="LOCAL-00016" summary="start the about section">
       <option name="closed" value="true" />
@@ -543,7 +537,15 @@
       <option name="project" value="LOCAL" />
       <updated>1742280980019</updated>
     </task>
-    <option name="localTasksCounter" value="64" />
+    <task id="LOCAL-00064" summary="media updated">
+      <option name="closed" value="true" />
+      <created>1742560535455</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1742560535455</updated>
+    </task>
+    <option name="localTasksCounter" value="65" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -561,7 +563,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="skill section updated" />
     <MESSAGE value="skills-container  updated" />
     <MESSAGE value="skills-box  hover updated" />
     <MESSAGE value="skills-box  image size minimaized updated" />
@@ -586,6 +587,7 @@
     <MESSAGE value="update media query" />
     <MESSAGE value="update color" />
     <MESSAGE value="update contact field" />
-    <option name="LAST_COMMIT_MESSAGE" value="update contact field" />
+    <MESSAGE value="media updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="media updated" />
   </component>
 </project>
