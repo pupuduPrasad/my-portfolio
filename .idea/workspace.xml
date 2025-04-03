@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="534b48d0-21e7-4612-b8ba-0bb0df80146c" name="Changes" comment="media updated">
+    <list default="true" id="534b48d0-21e7-4612-b8ba-0bb0df80146c" name="Changes" comment="updated hover transsition">
+      <change afterPath="$PROJECT_DIR$/js/js.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style/styleCSS.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/styleCSS.css" afterDir="false" />
@@ -151,15 +152,15 @@
       <workItem from="1742400557794" duration="1000" />
       <workItem from="1742475399589" duration="68000" />
       <workItem from="1742560044746" duration="2125000" />
-      <workItem from="1742573670419" duration="642000" />
-    </task>
-    <task id="LOCAL-00016" summary="start the about section">
-      <option name="closed" value="true" />
-      <created>1741792268547</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1741792268547</updated>
+      <workItem from="1742573670419" duration="1581000" />
+      <workItem from="1742613403273" duration="29000" />
+      <workItem from="1742639135346" duration="1738000" />
+      <workItem from="1742731721162" duration="928000" />
+      <workItem from="1743217762623" duration="557000" />
+      <workItem from="1743425376640" duration="2963000" />
+      <workItem from="1743476777633" duration="17000" />
+      <workItem from="1743653086345" duration="5273000" />
+      <workItem from="1743661495728" duration="1953000" />
     </task>
     <task id="LOCAL-00017" summary="about image css apply">
       <option name="closed" value="true" />
@@ -545,7 +546,15 @@
       <option name="project" value="LOCAL" />
       <updated>1742560535455</updated>
     </task>
-    <option name="localTasksCounter" value="65" />
+    <task id="LOCAL-00065" summary="updated hover transsition">
+      <option name="closed" value="true" />
+      <created>1742574537590</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1742574537590</updated>
+    </task>
+    <option name="localTasksCounter" value="66" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -563,7 +572,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="skills-container  updated" />
     <MESSAGE value="skills-box  hover updated" />
     <MESSAGE value="skills-box  image size minimaized updated" />
     <MESSAGE value="skills-box  image p updated" />
@@ -588,6 +596,7 @@
     <MESSAGE value="update color" />
     <MESSAGE value="update contact field" />
     <MESSAGE value="media updated" />
-    <option name="LAST_COMMIT_MESSAGE" value="media updated" />
+    <MESSAGE value="updated hover transsition" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated hover transsition" />
   </component>
 </project>

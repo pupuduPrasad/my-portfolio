@@ -6,10 +6,12 @@
 
 
 }
+
 body{
     background: #1b1b1b;
     color: white;
 }
+
 /* Home Section */
 #home {
     height: 100vh;
@@ -21,10 +23,12 @@ body{
     color: white;
     padding: 100px 20px;
 }
+
 #home div h1{
     display: inline;
-    
+
 }
+
 #home div h1:nth-child(2){
     color: chocolate;
 }
@@ -33,6 +37,7 @@ body{
     color: aqua;
 
 }
+
 #home img {
     width: 850px;
     height: 640px;
@@ -46,6 +51,7 @@ body{
     font-size: 100px;
     margin-bottom: 10px;
 }
+
 #home p {
     font-size: 30px;
     margin-bottom: 20px;
@@ -99,6 +105,7 @@ nav {
     justify-content: end;
     align-items: center;
 }
+
 nav a {
     color: white;
     text-decoration: none;
@@ -109,6 +116,7 @@ nav a {
     padding: 10px 15px;
     border-radius: 5px;
 }
+
 nav a:hover {
     color: #00ffff;
     background: dimgray
@@ -124,7 +132,6 @@ nav a:hover {
     position: relative;
 }
 
-
 #about img {
     border-radius: 10%;
     margin-top: 20px;
@@ -134,10 +141,12 @@ nav a:hover {
     left: 300px;
     transition: 0.3s;
 }
+
 #about img:hover {
     transform: scale(1.1);
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
 }
+
 #about h1 {
     font-size: 4.5rem;
     margin-bottom: 20px;
@@ -156,9 +165,6 @@ nav a:hover {
     margin: 20px auto;
     font-family: 'Arial', sans-serif;
 }
-
-
-
 
 /* Project Section */
 #projects {
@@ -196,10 +202,10 @@ nav a:hover {
     background: #89420a;
     transform: scale(1.1);
 }
-    #projects h3 {
+#projects h3 {
         font-size: 2.0em;
         margin-bottom: 10px;
-    }
+}
 
 #projects img {
     width: 130px;
@@ -207,7 +213,6 @@ nav a:hover {
     border-radius: 8px;
     margin-bottom: 15px;
 }
-
 
 /* Education Section Styling */
 #education {
@@ -239,11 +244,13 @@ nav a:hover {
     margin-right: auto;
     transition:0.3s;
 }
+
 #education h3 {
     font-size: 22px;
     color: white;
     margin-bottom: 10px;
 }
+
 #education img {
     width: 80px;
     height: auto;
@@ -261,7 +268,6 @@ nav a:hover {
     transform: scale(1.1);
 }
 
-
 /* Skills Section */
 #skills {
     height: 100vh;
@@ -276,6 +282,7 @@ nav a:hover {
     margin-bottom: 30px;
     color: white;
 }
+
 .skills-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -298,22 +305,22 @@ nav a:hover {
     border: 2px solid rgba(0, 0, 0, 0.5);
     transition: 0.3s;
 }
+
 .skill-box:hover {
     transform: scale(1.1);
 }
+
 .skill-box img {
     width: 100px;
     height: auto;
     margin-bottom: 10px;
 }
+
 .skill-box p {
     font-size: 1.2rem;
     font-weight: bold;
     color: white;
 }
-
-
-
 
 /* Contact Section Styling */
 #contact {
@@ -323,16 +330,16 @@ nav a:hover {
     /*max-width: 500px;*/
 
 }
+
 #contact div{
     position: relative;
     top: 80px;
     max-width: 500px;
-    background: linear-gradient(to right, #ff5733, #5007c1);
+    background: linear-gradient(to right, #333, #1a1a1a, #333);
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
     border-radius: 10px;
     margin: auto;
     padding: 30px 20px;
-
 
 }
 
@@ -352,6 +359,7 @@ nav a:hover {
     font-size: 1rem;
     margin: 10px 0 5px;
 }
+
 #contact textarea {
     width: 100%;
     padding: 10px;
@@ -363,9 +371,11 @@ nav a:hover {
     outline: none;
     resize: none;
 }
+
 #contact textarea::placeholder {
     color: rgba(255, 255, 255, 0.7);
 }
+
 #contact button {
     width: 100%;
     padding: 12px;
@@ -383,7 +393,6 @@ nav a:hover {
 #contact button:hover {
     background: #c70039;
 }
-
 
 /* Social Section */
 #social {
@@ -403,12 +412,199 @@ nav a:hover {
     margin: 10px;
     display: inline-block;
 }
+
 #social img {
     width: 40px;
     height: auto;
     transition: 0.2s;
     margin-bottom: 20px;
 }
+
 #social img:hover {
     transform: scale(1.2);
+}
+
+/* Responsive navigation bar */
+@media screen and (max-width: 768px) {
+    nav {
+        display: inline;
+        flex-direction: column;
+        align-items: center;
+    }
+    nav a {
+        margin: 10px 0;
+        font-size: 10px;
+    }
+}
+
+/* Media Query for About Section */
+@media screen and (max-width: 768px) {
+    #about {
+        height: auto;
+        padding: 40px 20px;
+    }
+
+    #about img {
+        position: static;
+        display: block;
+        margin: 20px auto;
+        width: 250px;
+    }
+
+    #about h1 {
+        font-size: 3rem;
+        top: 0;
+    }
+
+    #about p {
+        position: static;
+        text-align: center;
+        font-size: 1rem;
+        max-width: 90%;
+        margin: 20px auto;
+    }
+}
+
+/* Media Query for Projects Section */
+@media screen and (max-width: 768px) {
+    #projects {
+        padding: 20px;
+    }
+
+    #projects h1 {
+        font-size: 2.5rem;
+    }
+
+    #projects p {
+        font-size: 1rem;
+    }
+
+    #projectContent {
+        display: block;
+        text-align: center;
+    }
+
+    #projectContent div {
+        max-width: 90%;
+        margin: 20px auto;
+    }
+
+    #projects img {
+        width: 100px;
+    }
+}
+
+/*Education media query*/
+@media screen and (max-width: 768px) {
+    #education h1 {
+        font-size: 2rem;
+    }
+
+    #education p {
+        font-size: 0.9rem;
+        padding: 0 10px;
+    }
+
+    #education img {
+        width: 70px;
+    }
+}
+
+/* Skills,contact media query */
+
+@media (max-width: 768px) {
+    /* Ensure content is centered and responsive */
+    body, html {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    /* Skills Section Styling */
+    #skills {
+        width: 90%;
+        text-align: center;
+        margin-bottom: 40px;
+    }
+
+    .skills-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .skill-box {
+        width: 100px;
+        text-align: center;
+    }
+
+    .skill-box img {
+        width: 60px;
+        height: auto;
+    }
+
+    .skill-box p {
+        font-size: 0.9rem;
+    }
+
+    /* Contact Section Styling */
+    #contact {
+        width: 90%;
+        padding: 40px 15px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    #contact h1 {
+        font-size: 2rem;
+    }
+
+    #contact p {
+        font-size: 1rem;
+        max-width: 80%;
+    }
+
+    #contact h4 {
+        font-size: 1rem;
+        margin-top: 10px;
+    }
+
+    #contact textarea {
+        font-size: 1rem;
+        width: 100%;
+        max-width: 350px;
+        padding: 10px;
+    }
+
+    #contact button {
+        font-size: 1rem;
+        padding: 12px 20px;
+        margin-top: 15px;
+        cursor: pointer;
+        border: none;
+        background-color: #007bff;
+        color: white;
+        border-radius: 5px;
+    }
+}
+
+/* Social media query */
+@media (max-width: 768px) {
+    #social {
+        padding: 10px;
+    }
+    #social h1 {
+        font-size: 2.5rem;
+    }
+    #social img {
+        width: 30px;
+        margin-bottom: 10px;
+    }
 }
