@@ -7,6 +7,8 @@
     <link rel="icon" type="image/jpg" href="img/WhatsApp%20Image%202025-01-01%20at%2018.30.52_3c12511a.jpg">
     <link rel="stylesheet" href="lib/normalize.css">
     <link rel="stylesheet" href="style/styleCSS.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
 
 </head>
 <body>
@@ -18,7 +20,12 @@
         <h1>Hello,<br>I'am </h1>
         <h1>Prasad</h1>
         <p>I'm a software engineer...  </p>
-        <a href="#about"><button id="viewWorkBtn">View My Work</button></a>
+        <a href="#about">
+            <button id="button">
+                <span class="button-content">View My Work </span>
+            </button>
+
+        </a>
 
 
 <!--        &lt;!&ndash;Add JavaScript&ndash;&gt;-->
@@ -45,16 +52,44 @@
 <br>
 
 <!--My about-->
-<section id="about" class="animated-section">
-        <h1 id="caption">About</h1>
-        <img src="img/WhatsApp%20Image%202025-01-01%20at%2018.30.52_3c12511a.jpg" alt="profile" width="250">
-        <p>Hi, I’m pupudu prasad, a software engineer specializing in  web development. I have experience in  technologies and enjoy solving complex problems to create efficient, scalable solutions. I’m passionate about learning new technologies and contributing to impactful projects..</p>
+<section id="about">
+    <!-- Left: Image -->
+    <img src="img/your-image.jpg" alt="profile">
 
+    <!-- Right: Text + Socials -->
+    <div class="content">
+        <h1 class="topic">About Me</h1>
+        <h3>Who Is Prasad</h3>
+        <p>
+            Hi, I’m Pupudu Prasad, a software engineer specializing in web development.
+            I have experience in technologies and enjoy solving complex problems to create efficient, scalable solutions.
+            I’m passionate about learning new technologies and contributing to impactful projects.
+        </p>
+
+        <div class="social-icons">
+            <a href="https://www.linkedin.com/in/prasad-jayasinghe-72006331a/" target="_blank" class="social-icon">
+                <img src="img/social/linkedin.png" alt="LinkedIn">
+            </a>
+            <a href="https://github.com/pupuduPrasad" target="_blank" class="social-icon">
+                <img src="img/social/github.png" alt="GitHub">
+            </a>
+            <a href="https://web.facebook.com/pupudu.prasad.10/" target="_blank" class="social-icon">
+                <img src="img/social/facebook.png" alt="Facebook">
+            </a>
+            <a href="mailto:prasadjayasinghe142@gmail.com" class="social-icon">
+                <img src="img/social/gmail.png" alt="Email">
+            </a>
+            <a href="https://instagram.com/yourprofile" target="_blank" class="social-icon">
+                <img src="img/social/instagram.png" alt="Instagram">
+            </a>
+        </div>
+    </div>
 </section>
+
 
 <!--My project area-->
 <section id="projects">
-    <h1>Projects</h1>
+    <h1 class="topic">Projects</h1>
     <p>Get to know me!
         I'm a Frontend Focused Web Developer building and managing the Front-end of Websites and Web Applications that leads to the success of the overall product. Check out some of my work in the Projects section</p>
     <div id="projectContent">
@@ -67,8 +102,7 @@
         <div class="pr">
             <h3><i>Event management system App</i></h3>
             <img src="img/project-management.png" alt="event">
-            <p>Get to know me!
-                I'm a Frontend Focused Web Developer building and managing the Front-end of Websites and Web Applications that leads to the success of the overall product.</p>
+            <p>An Event Management System is a digital platform designed to plan, organize, and manage events efficiently. It allows users to create events, manage registrations, track attendees, handle ticketing, send notifications, and monitor event progress. Whether for conferences, weddings, concerts, or corporate functions, the system streamlines event logistics and enhances the overall experience for organizers and participants.</p>
         </div>
     </div>
 
@@ -76,7 +110,7 @@
 <br>
 <!--My educations-->
 <section id="education">
-    <h1>Educations</h1>
+    <h1 class="topic">Educations</h1>
     <div id="educationContent">
         <div class="education-item">
             <h3><i>It and English dual Diploma</i></h3>
@@ -95,11 +129,44 @@
     </div>
 
 </section>
-<br>
-<br>
+
+<section id="assignments">
+    <h2>My Assignments</h2>
+    
+    <div class="assignment-container">
+      <div class="assignment-item">
+        <h3>Web Development Project</h3>
+        <p>Created a responsive website using HTML, CSS, and JavaScript.</p>
+        <span class="date">Completed: March 2025</span>
+        <a href="#" class="view-btn">View Assignment</a>
+      </div>
+      
+      <div class="assignment-item">
+        <h3>Database Design Assignment</h3>
+        <p>Designed and implemented a relational database for a library management system.</p>
+        <span class="date">Completed: February 2025</span>
+        <a href="#" class="view-btn">View Assignment</a>
+      </div>
+      
+      <div class="assignment-item">
+        <h3>Mobile App Prototype</h3>
+        <p>Developed a prototype fitness tracking application using Flutter.</p>
+        <span class="date">Completed: January 2025</span>
+        <a href="#" class="view-btn">View Assignment</a>
+      </div>
+      
+      <div class="assignment-item">
+        <h3>Research Paper</h3>
+        <p>Conducted research on emerging technologies in cloud computing.</p>
+        <span class="date">Completed: December 2024</span>
+        <a href="#" class="view-btn">View Assignment</a>
+      </div>
+    </div>
+  </section>
+
 <!--My skills-->
 <section id="skills">
-    <h1>Skills</h1>
+    <h1 class="topic">Skills</h1>
     <div class="skills-container">
         <div class="skill-box">
             <img src="img/skill/html.png" alt="HTML">
@@ -131,7 +198,7 @@
 <!--Contact field-->
 <section id="contact">
     <div class="main-content">
-        <h1>Contact</h1><br>
+        <h1 class="topic">Contact</h1><br>
         <p>Have a question or want to work together? Leave your details and I'll get back to you as soon as possible.</p>
 
         <h4 >Name -</h4> <textarea name="name" id="name" cols="43" rows="1"></textarea>
@@ -145,7 +212,7 @@
 <br>
 <!--My social-->
 <section id="social">
-    <h1>Social</h1>
+<!--    <h1 class="topic">Social</h1>-->
 
     <a href="mailto:prasadjayasinghe142@gmail.com">
         <img src="img/social/gmail.png" alt="GMAIL">

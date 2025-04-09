@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="534b48d0-21e7-4612-b8ba-0bb0df80146c" name="Changes" comment="updated hover transsition">
-      <change afterPath="$PROJECT_DIR$/js/js.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/social/instagram.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style/styleCSS.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/styleCSS.css" afterDir="false" />
@@ -55,7 +55,7 @@
     &quot;git-widget-placeholder&quot;: &quot;style&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/projects/my-portfolio/img&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/projects/my-portfolio/img/social&quot;,
     &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -76,6 +76,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\projects\my-portfolio\img\social" />
       <recent name="C:\projects\my-portfolio\img" />
       <recent name="C:\projects\my-portfolio" />
     </key>
@@ -161,6 +162,16 @@
       <workItem from="1743476777633" duration="17000" />
       <workItem from="1743653086345" duration="5273000" />
       <workItem from="1743661495728" duration="1953000" />
+      <workItem from="1743822522938" duration="2710000" />
+      <workItem from="1743841496732" duration="12000" />
+      <workItem from="1744087641128" duration="2207000" />
+      <workItem from="1744091939676" duration="2339000" />
+      <workItem from="1744094850549" duration="815000" />
+      <workItem from="1744096793904" duration="965000" />
+      <workItem from="1744168292144" duration="774000" />
+      <workItem from="1744191861773" duration="709000" />
+      <workItem from="1744196417113" duration="1962000" />
+      <workItem from="1744205272656" duration="341000" />
     </task>
     <task id="LOCAL-00017" summary="about image css apply">
       <option name="closed" value="true" />
