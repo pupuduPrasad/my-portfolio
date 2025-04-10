@@ -7,7 +7,7 @@
 }
 
 body{
-    background: #1b1b1b;
+    background: linear-gradient(90deg, rgb(0, 40, 0) 10.8%, rgb(0, 20, 0) 94.3%);
     color: white;
 }
 
@@ -29,7 +29,7 @@ body{
 }
 
 #home div h1:nth-child(2){
-    color: chocolate;
+    color: rgba(0,255,0,1);
 }
 
 #home div h1:hover,#home div p:hover{
@@ -92,8 +92,9 @@ body{
     border-radius: inherit;
     background: linear-gradient(
             82.3deg,
-            rgba(255, 165, 0, 1) 10.8%,
-            rgba(255, 94, 0, 1) 94.3%
+            rgba(0, 255, 0, 1) 10.8%,
+            rgba(0, 128, 0, 1) 94.3%
+
     );
     transition: all 0.475s;
 }
@@ -155,13 +156,13 @@ nav a:hover {
     top:60px;
     object-fit: cover;
     border-radius: 50%;
-    border: 5px solid #e74c3c;
+    border: 5px solid #90ee90;
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
     transition: box-shadow 0.8s ease-in-out, transform 0.2s ease-in-out;
 
 }
 #about img[alt="profile"]:hover {
-    box-shadow: 0 0 25px 5px rgba(255, 94, 0, 0.5), 0 0 35px 10px rgba(255, 137, 34, 0.3);
+    box-shadow: 0 0 25px 5px rgba(0, 255, 0, 0.5), 0 0 35px 10px rgba(34, 255, 0, 0.3);
     transform: scale(1.03);
 }
 
@@ -181,7 +182,7 @@ nav a:hover {
 
 #about .content h3 {
     font-size: 3rem;
-    color: #e74c3c;
+    color: #90ee90;
     margin-bottom: 15px;
 }
 
@@ -196,7 +197,7 @@ nav a:hover {
 /* Social Icons */
 .social-icons {
     display: flex;
-    gap: 15px;
+    gap: 30px;
 }
 
 .social-icon img {
@@ -206,15 +207,18 @@ nav a:hover {
     bottom: -20px;
     /*filter: grayscale(100%);*/
     transition: transform 0.3s, filter 0.3s;
+
 }
 
 .social-icon:hover img {
     filter: grayscale(0%);
     transform: scale(1.2);
+    box-shadow: 0 0 25px 5px rgba(0, 255, 0, 0.5), 0 0 35px 10px rgba(34, 255, 0, 0.3);
+
 }
 
 .topic:hover {
-    background: linear-gradient(90deg, rgba(255,165,0,1) 10.8%, rgba(255,94,0,1) 94.3%);
+    background: linear-gradient(90deg, rgba(0,255,0,1) 10.8%, rgba(0,128,0,1) 94.3%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -226,7 +230,6 @@ nav a:hover {
     color: white;
     padding: 30px 20px;
     text-align: center;
-    /*display: flex;*/
 }
 #projects h1 {
     font-size: 4.5rem;
@@ -253,8 +256,9 @@ nav a:hover {
     transition: 0.3s;
 }
 #projectContent div:hover {
-    background: #89420a;
-    transform: scale(1.1);
+    background: #90ee90;
+    color: black;
+    transform: scale(1.05);
 }
 #projects h3 {
         font-size: 2.0em;
@@ -271,7 +275,7 @@ nav a:hover {
 /* Education Section Styling */
 #education {
     height: 100vh;
-    padding: 120px 20px;
+    padding: 120px 20px 20px 20px;
     text-align: center;
 }
 #educationContent{
@@ -288,7 +292,6 @@ nav a:hover {
 #education .education-item {
     margin-bottom: 40px;
     padding: 20px;
-    /*background-color: #ffffff1a;*/
     background: linear-gradient(to right, #1a1a1a, #333, #1a1a1a);
     border-radius: 10px;
     box-shadow: 0 4px 8px dimgray;
@@ -301,7 +304,6 @@ nav a:hover {
 
 #education h3 {
     font-size: 22px;
-    color: white;
     margin-bottom: 10px;
 }
 
@@ -313,92 +315,93 @@ nav a:hover {
 
 #education p {
     font-size: 17px;
-    color: white;
     line-height: 1.6;
 }
 
-#education .education-item:hover{
-    background: #89420a;
-    transform: scale(1.1);
+#educationContent div:hover{
+    background: #90ee90;
+    transform: scale(1.05);
+    color: black;
 }
-    /* Assignments Section Styling */
-    #assignments {
-        justify-items: center;
-        justify-content: space-around;
-        max-width: 100vw;
-        margin: 0 auto;
-        padding: 40px 20px;
-      }
-      
-      #assignments h2 {
-        text-align: center;
-        margin-bottom: 30px;
-        font-size: 2.2rem;
-        color: #2c3e50;
-        position: relative;
-      }
-      
-      #assignments h2:after {
-        content: '';
-        display: block;
-        width: 80px;
-        height: 3px;
-        background-color: #3498db;
-        margin: 15px auto 0;
-      }
-      
-      .assignment-container {
-        display: grid;
-        grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-        gap: 25px;
-      }
-      
-      .assignment-item {
-        background-color: white;
-        border-radius: 8px;
-        padding: 25px;
-        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-        transition: transform 0.3s ease, box-shadow 0.3s ease;
-      }
-      
-      .assignment-item:hover {
-        transform: translateY(-5px);
-        box-shadow: 0 8px 15px rgba(0, 0, 0, 0.15);
-      }
-      
-      .assignment-item h3 {
-        font-size: 1.4rem;
-        margin-bottom: 12px;
-        color: #2c3e50;
-      }
-      
-      .assignment-item p {
-        color: #666;
-        margin-bottom: 15px;
-        font-size: 1rem;
-      }
-      
-      .date {
-        display: block;
-        font-size: 0.9rem;
-        color: #888;
-        margin-bottom: 15px;
-      }
-      
-      .view-btn {
-        display: inline-block;
-        padding: 8px 16px;
-        background-color: #3498db;
-        color: white;
-        text-decoration: none;
-        border-radius: 5px;
-        font-size: 0.95rem;
-        transition: background-color 0.2s ease;
-      }
-      
-      .view-btn:hover {
-        background-color: #2980b9;
-      }
+
+/* Assignments Section Styling */
+#assignments {
+    justify-items: center;
+    justify-content: space-around;
+    max-width: 100vw;
+    margin: 0 auto;
+    padding: 40px 20px;
+}
+
+#assignments h1 {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 4.5rem;
+    color: white;
+    position: relative;
+}
+
+#assignments h1:after {
+    display: block;
+    width: 80px;
+    height: 3px;
+    background-color: #3498db;
+    margin: 50px auto 0;
+}
+
+.assignment-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 50px;
+}
+
+.assignment-item {
+    background-color: #90ee90;
+    border-radius: 8px;
+    padding: 25px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.assignment-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 15px black;
+}
+
+.assignment-item h3 {
+    font-size: 1.4rem;
+    margin-bottom: 12px;
+    color: black;
+}
+
+.assignment-item p {
+    color: darkgreen;
+    margin-bottom: 15px;
+    font-size: 1rem;
+}
+
+.date {
+    display: block;
+    font-size: 0.9rem;
+    color: black;
+    margin-bottom: 15px;
+}
+
+.view-btn {
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #3498db;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 0.95rem;
+    transition: background-color 0.2s ease;
+}
+
+.view-btn:hover {
+    background-color: #2980b9;
+}
+
 
 
 /* Skills Section */
@@ -407,7 +410,7 @@ nav a:hover {
     padding: 50px 20px;
     text-align: center;
     position: relative;
-    left: 30px;
+    left: 40px;
 }
 
 #skills h1 {
@@ -430,7 +433,6 @@ nav a:hover {
     display: flex;
     flex-direction: column;
     align-items: center;
-    /*background: rgba(255, 255, 255, 0.1);*/
     background: linear-gradient(to right, #1a1a1a, #333, #1a1a1a);
     padding: 30px;
     border-radius: 30px;
@@ -514,7 +516,7 @@ nav a:hover {
     padding: 12px;
     font-size: 1rem;
     font-weight: bold;
-    background: #ff5733;
+    background: #90ee90;
     color: white;
     border: none;
     border-radius: 5px;
@@ -524,7 +526,7 @@ nav a:hover {
 }
 
 #contact button:hover {
-    background: #c70039;
+    background: linear-gradient(90deg, rgba(0,255,0,1) 10.8%, rgba(0,128,0,1) 94.3%);
 }
 
 /* Social Section */
