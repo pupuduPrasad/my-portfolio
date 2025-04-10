@@ -5,6 +5,9 @@
     font-family: 'Courier New', monospace;
     font-weight: bold;
 }
+html {
+    scroll-behavior: smooth;
+}
 
 body{
     background: linear-gradient(90deg, rgb(0, 40, 0) 10.8%, rgb(0, 20, 0) 94.3%);
@@ -55,9 +58,7 @@ body{
     font-size: 30px;
     margin-bottom: 20px;
 }
-/* View Work Button */
-/* From Uiverse.io by Madflows */
-/* From Uiverse.io by Madflows */
+
 #button {
     position: relative;
     overflow: hidden;
@@ -456,6 +457,8 @@ nav a:hover {
     font-weight: bold;
     color: white;
 }
+
+
 
 /* Contact Section Styling */
 #contact {

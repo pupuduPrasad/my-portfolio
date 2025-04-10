@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="534b48d0-21e7-4612-b8ba-0bb0df80146c" name="Changes" comment="assignment section updated">
+    <list default="true" id="534b48d0-21e7-4612-b8ba-0bb0df80146c" name="Changes" comment="color change portfolio">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style/styleCSS.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/styleCSS.css" afterDir="false" />
@@ -171,15 +171,7 @@
       <workItem from="1744191861773" duration="709000" />
       <workItem from="1744196417113" duration="1962000" />
       <workItem from="1744205272656" duration="4660000" />
-      <workItem from="1744258196971" duration="1964000" />
-    </task>
-    <task id="LOCAL-00019" summary="about paragraph updated">
-      <option name="closed" value="true" />
-      <created>1741792688363</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1741792688363</updated>
+      <workItem from="1744258196971" duration="6085000" />
     </task>
     <task id="LOCAL-00020" summary="create the project section css apply">
       <option name="closed" value="true" />
@@ -565,7 +557,15 @@
       <option name="project" value="LOCAL" />
       <updated>1744207458310</updated>
     </task>
-    <option name="localTasksCounter" value="68" />
+    <task id="LOCAL-00068" summary="color change portfolio">
+      <option name="closed" value="true" />
+      <created>1744260220981</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1744260220981</updated>
+    </task>
+    <option name="localTasksCounter" value="69" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -583,7 +583,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="skills-box  image p updated" />
     <MESSAGE value="start the contact field applied css part1" />
     <MESSAGE value="contact field h1 part2" />
     <MESSAGE value="contact field p part3" />
@@ -608,6 +607,7 @@
     <MESSAGE value="updated hover transsition" />
     <MESSAGE value="updated About and assignment section adding" />
     <MESSAGE value="assignment section updated" />
-    <option name="LAST_COMMIT_MESSAGE" value="assignment section updated" />
+    <MESSAGE value="color change portfolio" />
+    <option name="LAST_COMMIT_MESSAGE" value="color change portfolio" />
   </component>
 </project>

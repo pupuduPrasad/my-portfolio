@@ -12,31 +12,28 @@
 
 </head>
 <body>
-<!--<script src="js/js.js"></script>-->
 
 <!--home-->
 <section id="home" class="animated-section">
-    <div >
-        <h1>Hello,<br>I'am </h1>
+    <div>
+        <h1>Hello,<br>I'm</h1>
         <h1>Prasad</h1>
-        <p>I'm a software engineer...  </p>
+        <p>I'm a software engineer...</p>
+
         <a href="#about">
-            <button id="button">
-                <span class="button-content">View My Work </span>
+            <button id="button" type="button">
+                <span class="button-content">View My Work</span>
             </button>
-
         </a>
-
-
-<!--        &lt;!&ndash;Add JavaScript&ndash;&gt;-->
-<!--        <script>-->
-<!--            document.getElementById("viewWorkBtn").addEventListener("click", function() {-->
-<!--                document.getElementById("about").scrollIntoView({ behavior: "smooth" });-->
-<!--            });-->
-<!--        </script>-->
-
     </div>
+
+    <script>
+        document.getElementById("button").addEventListener("click", function () {
+            document.getElementById("about").scrollIntoView({ behavior: "smooth" });
+        });
+    </script>
 </section>
+
 <br>
 <!--navigation bar-->
 <section>
@@ -91,8 +88,7 @@
 <!--My project area-->
 <section id="projects">
     <h1 class="topic">Projects</h1>
-    <p>Get to know me!
-        I'm a Frontend Focused Web Developer building and managing the Front-end of Websites and Web Applications that leads to the success of the overall product. Check out some of my work in the Projects section</p>
+    <p>In this project section, you'll build a small component-based application that demonstrates the use of CSS Modules for styling. Each UI component should have its own modular CSS file to maintain scoped and reusable styles. The project should reflect best practices in separating structure and design, avoiding global CSS conflicts, and creating a clean, maintainable codebase.</p>
     <div id="projectContent">
         <div class="pr">
             <h3><i>AI Mini Game-Tic tac toi</i></h3>
@@ -143,24 +139,24 @@
       </div>
 
       <div class="assignment-item">
-        <h3>Database Design Assignment</h3>
-        <p>Designed and implemented a relational database for a library management system.</p>
-        <span class="date">Completed: February 2025</span>
-        <a href="#" class="view-btn">View Assignment</a>
+        <h3>First Semester Assignment</h3>
+        <p>Designed and implemented a relational database for a event management system.</p>
+        <span class="date">Completed: November 2024</span>
+        <a href="https://github.com/pupuduPrasad/EventManagement.git" class="view-btn">View Assignment</a>
       </div>
 
       <div class="assignment-item">
-        <h3>Mobile App Prototype</h3>
-        <p>Developed a prototype fitness tracking application using Flutter.</p>
-        <span class="date">Completed: January 2025</span>
-        <a href="#" class="view-btn">View Assignment</a>
+        <h3>OOP Module Assignment</h3>
+        <p>Developed a Tic Tac Toi Game.</p>
+        <span class="date">Completed: October 2024</span>
+        <a href="https://github.com/pupuduPrasad/tic-tac-toi.git" class="view-btn">View Assignment</a>
       </div>
 
       <div class="assignment-item">
-        <h3>Research Paper</h3>
-        <p>Conducted research on emerging technologies in cloud computing.</p>
-        <span class="date">Completed: December 2024</span>
-        <a href="#" class="view-btn">View Assignment</a>
+        <h3>CSS Module Assignment</h3>
+        <p>Styling with CSS Modules for scoped component styles..</p>
+        <span class="date">Completed: March 2025</span>
+        <a href="https://github.com/pupuduPrasad/CSSAssignment4.git" class="view-btn">View Assignment</a>
       </div>
     </div>
   </section>
@@ -196,6 +192,9 @@
     </div>
 </section>
 <br>
+
+
+
 <!--Contact field-->
 <section id="contact">
     <div class="main-content">
