@@ -237,6 +237,7 @@ nav a:hover {
     margin-bottom: 30px;
 }
 #projects p {
+    color: #B0B0B0;
     font-size: 1.2em;
     margin-bottom: 40px;
     line-height: 1.5;
@@ -459,6 +460,120 @@ nav a:hover {
 }
 
 
+/* Gallery Section Styles */
+#gallery-section {
+    padding: 80px 0;
+    /*background-color: #f9f9f9;*/
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.section-title {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.section-title h1 {
+    font-size: 4.5rem;
+    /*color: #333;*/
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.section-title p {
+    color: #B0B0B0; /* Lighter and softer grey */
+    font-size: 18px;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(300px, 1fr));
+    grid-gap: 30px;
+}
+
+.gallery-item {
+    position: relative;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.gallery-item:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+}
+
+.gallery-item img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    display: block;
+}
+
+.gallery-info {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.8), transparent);
+    color: #fff;
+    padding: 20px;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.gallery-item:hover .gallery-info {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.gallery-info h3 {
+    margin: 0 0 5px 0;
+    font-size: 20px;
+}
+
+.gallery-info p {
+    margin: 0;
+    font-size: 14px;
+}
+
+/* Filter buttons */
+.gallery-filter {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    flex-wrap: wrap;
+}
+
+.filter-btn {
+    border: none;
+    background: none;
+    color: #555;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 8px 20px;
+    margin: 0 5px 10px;
+    cursor: pointer;
+    border-radius: 30px;
+    transition: all 0.3s ease;
+}
+
+.filter-btn:hover {
+    color: #0099ff;
+}
+
+.filter-btn.active {
+    background-color: #0099ff;
+    color: white;
+}
 
 /* Contact Section Styling */
 #contact {
