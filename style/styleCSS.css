@@ -1062,7 +1062,7 @@ nav a:hover {
     }
 
     .skills-container {
-        /*display: flex;*/
+        display: flex;
         grid-template-columns: 1fr;
         left: 0;
     }
@@ -1606,259 +1606,260 @@ nav a:hover {
         font-size: 2.4rem;
     }
 }
-/* Media Query for Mobile Devices */
-@media all and (min-width: 431px) and (max-width: 768px) {
-    /* Global Adjustments */
-    body {
-        overflow-x: hidden;
-    }
+/*!* Media Query for Mobile Devices *!*/
+/*@media all and (min-width: 431px) and (max-width: 768px) {*/
+/*    !* Global Adjustments *!*/
+/*    body {*/
+/*        overflow-x: hidden;*/
+/*    }*/
 
-    /* Navigation Bar */
-    nav {
-        justify-content: right;
-        padding: 10px;
-    }
+/*    !* Navigation Bar *!*/
+/*    nav {*/
+/*        justify-content: right;*/
+/*        padding: 10px;*/
+/*    }*/
 
-    nav a {
-        margin: 0 10px;
-        font-size: 0.6rem;
-        padding: 8px 12px;
-    }
+/*    nav a {*/
+/*        margin: 0 10px;*/
+/*        font-size: 0.6rem;*/
+/*        padding: 8px 12px;*/
+/*    }*/
 
-    /* Home Section */
-    #home {
-        padding: 50px 15px;
-    }
+/*    !* Home Section *!*/
+/*    #home {*/
+/*        padding: 50px 15px;*/
+/*    }*/
 
-    #home div h1 {
-        font-size: 6rem;
-    }
+/*    #home div h1 {*/
+/*        font-size: 6rem;*/
+/*    }*/
 
 
-    #home p {
-        font-size: 2rem;
-    }
+/*    #home p {*/
+/*        font-size: 2rem;*/
+/*    }*/
 
-    #home img {
-        width: 100%;
-        height: auto;
-        top: auto;
-        right: auto;
-        position: relative;
-        margin-top: 30px;
-    }
+/*    #home img {*/
+/*        width: 100%;*/
+/*        height: auto;*/
+/*        top: auto;*/
+/*        right: auto;*/
+/*        position: relative;*/
+/*        margin-top: 30px;*/
+/*    }*/
 
-    #button {
-        height: 2.5rem;
-        padding: 0 1.5rem;
-    }
+/*    #button {*/
+/*        height: 2.5rem;*/
+/*        padding: 0 1.5rem;*/
+/*    }*/
 
-    /* About Section */
-    #about {
-        flex-direction: column;
-        height: auto;
-        padding: 30px 50px;
-        gap: 20px;
-    }
+/*    !* About Section *!*/
+/*    #about {*/
+/*        flex-direction: column;*/
+/*        height: auto;*/
+/*        padding: 30px 50px;*/
+/*        gap: 20px;*/
+/*    }*/
 
-    #about img[alt="profile"] {
-        width: 250px;
-        height: 300px;
-        left: 0;
-        top: 80px;
-    }
+/*    #about img[alt="profile"] {*/
+/*        width: 250px;*/
+/*        height: 300px;*/
+/*        left: 0;*/
+/*        top: 80px;*/
+/*    }*/
 
-    #about h1 {
-        font-size: 3rem;
-        margin-bottom: 20px;
-        position: relative;
-        top: -400px;
-    }
+/*    #about h1 {*/
+/*        font-size: 3rem;*/
+/*        margin-bottom: 20px;*/
+/*        position: relative;*/
+/*        top: -400px;*/
+/*    }*/
 
-    #about .content {
-        max-width: 100%;
-    }
+/*    #about .content {*/
+/*        max-width: 100%;*/
+/*    }*/
 
-    #about .content h3 {
-        font-size: 2rem;
-    }
+/*    #about .content h3 {*/
+/*        font-size: 2rem;*/
+/*    }*/
 
-    #about .content p {
-        font-size: 1.2rem;
-    }
+/*    #about .content p {*/
+/*        font-size: 1.2rem;*/
+/*    }*/
 
-    .social-icons {
-        gap: 20px;
-        justify-content: center;
-    }
+/*    .social-icons {*/
+/*        gap: 20px;*/
+/*        justify-content: center;*/
+/*    }*/
 
-    .social-icon img {
-        width: 24px;
-        bottom: 0;
-    }
+/*    .social-icon img {*/
+/*        width: 24px;*/
+/*        bottom: 0;*/
+/*    }*/
 
-    /* Projects Section */
-    #projects {
-        height: auto;
-        padding: 30px 50px;
-    }
+/*    !* Projects Section *!*/
+/*    #projects {*/
+/*        height: auto;*/
+/*        padding: 30px 50px;*/
+/*    }*/
 
-    #projects h1 {
-        font-size: 3.5rem;
-    }
+/*    #projects h1 {*/
+/*        font-size: 3.5rem;*/
+/*    }*/
 
-    #projects p {
-        font-size: 1.1rem;
-    }
+/*    #projects p {*/
+/*        font-size: 1.1rem;*/
+/*    }*/
 
-    #projectContent {
-        gap: 40px;
-    }
+/*    #projectContent {*/
+/*        gap: 40px;*/
+/*    }*/
 
-    #projectContent .pr {
-        width: 90%;
-    }
+/*    #projectContent .pr {*/
+/*        width: 90%;*/
+/*    }*/
 
-    #projectContent .pr h3 {
-        font-size: 1.5em;
-    }
+/*    #projectContent .pr h3 {*/
+/*        font-size: 1.5em;*/
+/*    }*/
 
-    #projectContent .pr img {
-        width: 40%;
-    }
+/*    #projectContent .pr img {*/
+/*        width: 40%;*/
+/*    }*/
 
-    #projectContent .pr p {
-        font-size: 1em;
-    }
+/*    #projectContent .pr p {*/
+/*        font-size: 1em;*/
+/*    }*/
 
-    /* Education Section */
-    #education {
-        height: auto;
-        padding: 30px 50px;
-    }
+/*    !* Education Section *!*/
+/*    #education {*/
+/*        height: auto;*/
+/*        padding: 30px 50px;*/
+/*    }*/
 
-    #education h1 {
-        font-size: 3.5rem;
-    }
+/*    #education h1 {*/
+/*        font-size: 3.5rem;*/
+/*    }*/
 
-    #educationContent {
-        gap: 40px;
-    }
+/*    #educationContent {*/
+/*        gap: 40px;*/
+/*    }*/
 
-    #educationContent .education-item {
-        width: 100%;
-    }
+/*    #educationContent .education-item {*/
+/*        width: 100%;*/
+/*    }*/
 
-    #educationContent .education-item h3 {
-        font-size: 1.4em;
-    }
+/*    #educationContent .education-item h3 {*/
+/*        font-size: 1.4em;*/
+/*    }*/
 
-    /* Assignments Section */
-    #assignments {
-        padding: 30px 50px;
-    }
+/*    !* Assignments Section *!*/
+/*    #assignments {*/
+/*        padding: 30px 50px;*/
+/*    }*/
 
-    #assignments h1 {
-        font-size: 3.5rem;
-    }
+/*    #assignments h1 {*/
+/*        font-size: 3.5rem;*/
+/*    }*/
 
-    .assignment-container {
-        grid-template-columns: 1fr;
-        gap: 30px;
-    }
+/*    .assignment-container {*/
+/*        grid-template-columns: 1fr;*/
+/*        gap: 30px;*/
+/*    }*/
 
-    .assignment-item h3 {
-        font-size: 1.2rem;
-    }
+/*    .assignment-item h3 {*/
+/*        font-size: 1.2rem;*/
+/*    }*/
 
-    /* Skills Section */
-    #skills {
-        height: auto;
-        padding: 30px 50px;
-    }
+/*    !* Skills Section *!*/
+/*    #skills {*/
+/*        height: auto;*/
+/*        padding: 30px 50px;*/
+/*    }*/
 
-    #skills h1 {
-        font-size: 3.5rem;
-    }
+/*    #skills h1 {*/
+/*        font-size: 3.5rem;*/
+/*    }*/
 
-    .skills-container {
-        /*display: flex;*/
-        grid-template-columns: 1fr;
-        left: 0;
-    }
+/*    .skills-container {*/
+/*        !*display: flex;*!*/
+/*        grid-template-columns: 1fr;*/
+/*        left: 0;*/
+/*    }*/
 
-    .skill-box {
-        width: 30px;
-        padding: 10px;
-    }
+/*    .skill-box {*/
+/*        display: flex;*/
+/*        width: 30px;*/
+/*        padding: 10px;*/
+/*    }*/
 
-    .skill-box img {
-        width: 30px;
-        height: auto;
-    }
+/*    .skill-box img {*/
+/*        width: 30px;*/
+/*        height: auto;*/
+/*    }*/
 
-    .skill-box p {
-        font-size: 0.8rem;
-    }
+/*    .skill-box p {*/
+/*        font-size: 0.8rem;*/
+/*    }*/
 
-    /* Gallery Section */
-    #gallery-section {
-        padding: 30px 50px;
-    }
+/*    !* Gallery Section *!*/
+/*    #gallery-section {*/
+/*        padding: 30px 50px;*/
+/*    }*/
 
-    .container {
-        max-width: 95vw;
-    }
+/*    .container {*/
+/*        max-width: 95vw;*/
+/*    }*/
 
-    .section-title h1 {
-        font-size: 3rem;
-    }
+/*    .section-title h1 {*/
+/*        font-size: 3rem;*/
+/*    }*/
 
-    .section-title p {
-        font-size: 1rem;
-    }
+/*    .section-title p {*/
+/*        font-size: 1rem;*/
+/*    }*/
 
-    .gallery-grid {
-        grid-template-columns: repeat(2, minmax(100px, 1fr));
-        grid-gap: 20px;
-    }
+/*    .gallery-grid {*/
+/*        grid-template-columns: repeat(2, minmax(100px, 1fr));*/
+/*        grid-gap: 20px;*/
+/*    }*/
 
-    .gallery-item img {
-        height: 200px;
-    }
+/*    .gallery-item img {*/
+/*        height: 200px;*/
+/*    }*/
 
-    /* Contact Section */
-    #contact {
-        height: auto;
-        padding: 30px 150px;
-    }
+/*    !* Contact Section *!*/
+/*    #contact {*/
+/*        height: auto;*/
+/*        padding: 30px 150px;*/
+/*    }*/
 
-    #contact div {
-        top: 0;
-        max-width: 100%;
-    }
+/*    #contact div {*/
+/*        top: 0;*/
+/*        max-width: 100%;*/
+/*    }*/
 
-    #contact h1 {
-        font-size: 2.2rem;
-    }
+/*    #contact h1 {*/
+/*        font-size: 2.2rem;*/
+/*    }*/
 
-    #contact p {
-        font-size: 1rem;
-    }
+/*    #contact p {*/
+/*        font-size: 1rem;*/
+/*    }*/
 
-    /* Social Section */
-    #social {
-        padding: 20px 10px;
-    }
+/*    !* Social Section *!*/
+/*    #social {*/
+/*        padding: 20px 10px;*/
+/*    }*/
 
-    #social h1 {
-        font-size: 2.5rem;
-    }
+/*    #social h1 {*/
+/*        font-size: 2.5rem;*/
+/*    }*/
 
-    #social img {
-        width: 30px;
-    }
-}
+/*    #social img {*/
+/*        width: 30px;*/
+/*    }*/
+/*}*/
 
 /* Media Queries for Tablets (max-width: 1024px) */
 @media all and (min-width: 769px) and (max-width: 1024px) {
