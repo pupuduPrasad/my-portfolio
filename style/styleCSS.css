@@ -886,3 +886,264 @@ nav a:hover {
 #social img:hover {
     transform: scale(1.2);
 }
+/* Media Query for Mobile Devices */
+@media only screen and (max-width: 768px) {
+    /* Global Adjustments */
+    body {
+        overflow-x: hidden;
+    }
+
+    /* Navigation Bar */
+    nav {
+        justify-content: right;
+        padding: 10px;
+    }
+
+    nav a {
+        margin: 0 10px;
+        font-size: 0.6rem;
+        padding: 8px 12px;
+    }
+
+    /* Home Section */
+    #home {
+        padding: 50px 15px;
+    }
+
+    #home div h1 {
+        font-size: 6rem;
+    }
+
+    #home p {
+        font-size: 2rem;
+    }
+
+    #home img {
+        width: 100%;
+        height: auto;
+        top: auto;
+        right: auto;
+        position: relative;
+        margin-top: 30px;
+    }
+
+    #button {
+        height: 2.5rem;
+        padding: 0 1.5rem;
+    }
+
+    /* About Section */
+    #about {
+        flex-direction: column;
+        /*text-align: center;*/
+        height: auto;
+        padding: 30px 50px;
+        gap: 20px;
+    }
+
+    #about img[alt="profile"] {
+        width: 250px;
+        height: 300px;
+        left: 0;
+        top: 80px;
+    }
+
+    #about h1 {
+        font-size: 3.5rem;
+        margin-bottom: 20px;
+        position: relative;
+        top: -400px;
+        /*left: 230px;*/
+    }
+
+    #about .content {
+        max-width: 100%;
+    }
+
+    #about .content h3 {
+        font-size: 2rem;
+    }
+
+    #about .content p {
+        font-size: 1.2rem;
+    }
+
+    .social-icons {
+        gap: 20px;
+        justify-content: center;
+    }
+
+    .social-icon img {
+        width: 24px;
+        bottom: 0;
+    }
+
+    /* Projects Section */
+    #projects {
+        height: auto;
+        padding: 30px 50px;
+    }
+
+    #projects h1 {
+        font-size: 3.5rem;
+    }
+
+    #projects p {
+        width: 90%;
+        font-size: 1.1rem;
+    }
+
+    #projectContent {
+        gap: 40px;
+    }
+
+    #projectContent .pr {
+        width: 90%;
+    }
+
+    #projectContent .pr h3 {
+        font-size: 1.5em;
+    }
+
+    #projectContent .pr img {
+        width: 40%;
+    }
+
+    #projectContent .pr p {
+        font-size: 1em;
+    }
+
+    /* Education Section */
+    #education {
+        height: auto;
+        padding: 30px 50px;
+    }
+
+    #education h1 {
+        font-size: 3.5rem;
+    }
+
+    #educationContent {
+        /*width: 90%;*/
+        gap: 40px;
+    }
+    /*.education-item img{*/
+    /*    width: 20px;*/
+    /*    aspect-ratio: 1/1;*/
+    /*}*/
+
+    #educationContent .education-item {
+        width: 100%;
+    }
+
+    #educationContent .education-item h3 {
+        font-size: 1.4em;
+    }
+
+    /* Assignments Section */
+    #assignments {
+        padding: 30px 50px;
+    }
+
+    #assignments h1 {
+        font-size: 3.5rem;
+    }
+
+    .assignment-container {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+
+    .assignment-item h3 {
+        font-size: 1.2rem;
+    }
+
+    /* Skills Section */
+    #skills {
+        height: auto;
+        padding: 30px 50px;
+    }
+
+    #skills h1 {
+        font-size: 3.5rem;
+    }
+
+    .skills-container {
+        grid-template-columns: repeat(3, minmax(100px, 1fr));
+        display: grid;
+        justify-content: center;
+        left: 0;
+    }
+
+    .skill-box {
+        width: 60px;
+        padding: 10px;
+    }
+
+    .skill-box img {
+        width: 50px;
+        height: auto;
+    }
+
+    .skill-box p {
+        font-size: 0.8rem;
+    }
+
+    /* Gallery Section */
+    #gallery-section {
+        padding: 30px 50px;
+    }
+
+    .container {
+        max-width: 95vw;
+    }
+
+    .section-title h1 {
+        font-size: 3rem;
+    }
+
+    .section-title p {
+        font-size: 1rem;
+    }
+
+    .gallery-grid {
+        grid-template-columns: repeat(2, minmax(100px, 1fr));
+        grid-gap: 20px;
+    }
+
+    .gallery-item img {
+        height: 200px;
+    }
+
+    /* Contact Section */
+    #contact {
+        height: auto;
+        padding: 30px 150px;
+    }
+
+    #contact div {
+        top: 0;
+        max-width: 100%;
+    }
+
+    #contact h1 {
+        font-size: 2.2rem;
+    }
+
+    #contact p {
+        font-size: 1rem;
+    }
+
+    /* Social Section */
+    #social {
+        padding: 20px 10px;
+    }
+
+    #social h1 {
+        font-size: 2.5rem;
+    }
+
+    #social img {
+        width: 30px;
+    }
+}
