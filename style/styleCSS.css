@@ -296,104 +296,204 @@ nav a:hover {
 /* Project Section */
 #projects {
     height: 100vh;
-    color: white;
-    padding: 30px 20px;
+    padding: 50px 20px;
     text-align: center;
+    position: relative;
 }
+
 #projects h1 {
     font-size: 4.5rem;
     margin-bottom: 30px;
+    -webkit-background-clip: text;
+    background-clip: text;
+    position: relative;
+    display: inline-block;
 }
+
 #projects p {
     color: #B0B0B0;
-    font-size: 1.2em;
+    font-size: 1.3rem;
     margin-bottom: 40px;
     line-height: 1.5;
+    max-width: 80rem;
+    margin-left: auto;
+    margin-right: auto;
 }
-#projectContent{
+
+#projectContent {
     display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 100px;
+    max-width: 1400px;
+    margin: 0 auto;
+
 }
-#projects .pr>p{
-    color: white;
+
+#projectContent .pr {
+    background-color: #121212;
+    border-radius: 15px;
+    overflow: hidden;
+    width: 500px;
+    position: relative;
+    transition: all 0.4s ease;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.7);
 }
-#projectContent div {
-    /*background: #ffffff1a;*/
-    background: linear-gradient(to right, #1a1a1a, #333, #1a1a1a);
-    box-shadow: 0 4px 8px dimgray;
-    padding: 20px;
-    margin: 20px auto;
-    border-radius: 10px;
-    max-width: 600px;
-    transition: 0.3s;
+
+#projectContent .pr::before {
+    content: "";
+    position: absolute;
+    top: -1px;
+    left: -1px;
+    right: -1px;
+    bottom: -1px;
+    border-radius: 15px;
+    padding: 1px;
+    background: linear-gradient(135deg, #00ffd0, transparent, #00a6ff);
+    -webkit-mask:
+            linear-gradient(#fff 0 0) content-box,
+            linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+    z-index: 1;
+    opacity: 0.7;
 }
-#projectContent div:hover {
-    background: #90ee90;
-    color: black;
+
+#projectContent .pr h3 {
+    font-size: 1.8em;
+    margin: 20px 0 15px;
+    color: #90ee90;
+    padding: 0 15px;
+}
+
+#projectContent .pr img {
+    width: 30%;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    border-bottom: 1px solid rgba(0, 255, 208, 0.2);
+    transition: transform 0.5s ease;
+}
+
+#projectContent .pr p {
+    color: #ccc;
+    font-size: 1.1em;
+    padding: 0 20px 20px;
+    margin: 0;
+    line-height: 1.5;
+}
+
+#projectContent .pr:hover {
+    transform: translateY(-15px);
+    box-shadow: 0 15px 35px rgba(0, 255, 208, 0.2);
+}
+
+#projectContent .pr:hover::before {
+    opacity: 1;
+    box-shadow: 0 0 20px rgba(0, 255, 208, 0.4);
+}
+
+#projectContent .pr:hover img {
     transform: scale(1.05);
 }
-#projects h3 {
-        font-size: 2.0em;
-        margin-bottom: 10px;
-}
 
-#projects img {
-    width: 130px;
-    height: auto;
-    border-radius: 8px;
-    margin-bottom: 15px;
-}
-
-/* Education Section Styling */
+/* Education Section */
 #education {
     height: 100vh;
-    padding: 120px 20px 20px 20px;
+    padding: 50px 20px;
+    margin-top: 50px;
     text-align: center;
+    position: relative;
 }
-#educationContent{
-    display: flex;
-    padding-top: 50px;
-}
+
 
 #education h1 {
     font-size: 4.5rem;
-    color: white;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
+    background-clip: text;
+    position: relative;
+    display: inline-block;
 }
 
-#education .education-item {
-    margin-bottom: 40px;
-    padding: 20px;
-    background: linear-gradient(to right, #1a1a1a, #333, #1a1a1a);
-    border-radius: 10px;
-    box-shadow: 0 4px 8px dimgray;
-    text-align: center;
-    max-width: 600px;
-    margin-left: auto;
-    margin-right: auto;
-    transition:0.3s;
+#educationContent {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 100px;
+    max-width: 1400px;
+    margin: 0 auto;
 }
 
-#education h3 {
-    font-size: 22px;
-    margin-bottom: 10px;
+#educationContent .education-item {
+    background-color: #121212;
+    border-radius: 15px;
+    overflow: hidden;
+    width: 400px;
+    position: relative;
+    transition: all 0.4s ease;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.7);
 }
 
-#education img {
-    width: 80px;
-    height: auto;
-    margin-bottom: 15px;
+#educationContent .education-item::before {
+    content: "";
+    position: absolute;
+    top: -1px;
+    left: -1px;
+    right: -1px;
+    bottom: -1px;
+    border-radius: 15px;
+    padding: 1px;
+    background: linear-gradient(135deg, #00ffd0, transparent, #00a6ff);
+        -webkit-mask:
+                linear-gradient(#fff 0 0) content-box,
+                linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+    z-index: 1;
+    opacity: 0.7;
 }
 
-#education p {
-    font-size: 17px;
-    line-height: 1.6;
+#educationContent .education-item h3 {
+    font-size: 1.6em;
+    margin: 20px 0 15px;
+    color: #90ee90;
+    padding: 0 15px;
 }
 
-#educationContent div:hover{
-    background: #90ee90;
-    transform: scale(1.05);
-    color: black;
+#educationContent .education-item img {
+    width: 35%;
+    aspect-ratio: 1/1;
+    /*height: 100px;*/
+    object-fit: contain;
+    background: rgba(255, 255, 255, 0.03);
+    border-radius: 50%;
+    padding: 15px;
+    margin: 10px auto;
+    border: 1px solid rgba(0, 198, 255, 0.2);
+    transition: transform 0.5s ease;
 }
+
+#educationContent .education-item p {
+    color: #ccc;
+    font-size: 0.95em;
+    padding: 0 20px 20px;
+    margin: 0;
+    line-height: 1.5;
+}
+
+#educationContent .education-item:hover {
+    transform: translateY(-15px);
+    box-shadow: 0 15px 35px rgba(0, 198, 255, 0.2);
+}
+
+#educationContent .education-item:hover::before {
+    opacity: 1;
+    box-shadow: 0 0 20px rgba(0, 198, 255, 0.4);
+}
+
+#educationContent .education-item:hover img {
+    transform: scale(1.1) rotate(5deg);
+}
+
 
 /* Updated Assignments Section Styling */
 #assignments {
@@ -408,8 +508,7 @@ nav a:hover {
     text-align: center;
     margin-bottom: 40px;
     font-size: 4.5rem;
-    color: white;
-    position: relative;
+        position: relative;
 }
 
 #assignments h1:after {
@@ -428,7 +527,7 @@ nav a:hover {
 
 /* Updated assignment item with hover effect similar to screenshot */
 .assignment-item {
-    background-color: #1a1a1a; /* Dark background like in screenshot */
+    background-color: #1a1a1a;
     border-radius: 8px;
     padding: 30px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
@@ -477,7 +576,7 @@ nav a:hover {
 .assignment-item h3 {
     font-size: 1.4rem;
     margin-bottom: 12px;
-    color: white;
+    color: #90ee90;
     transition: transform 0.4s, color 0.4s;
     text-align: center;
 }
@@ -594,12 +693,9 @@ nav a:hover {
     font-weight: bold;
     color: white;
 }
-
-
 /* Gallery Section Styles */
 #gallery-section {
     padding: 80px 0;
-    /*background-color: #f9f9f9;*/
 }
 
 .container {
@@ -622,8 +718,8 @@ nav a:hover {
 
 .section-title p {
     color: #B0B0B0; /* Lighter and softer grey */
-    font-size: 18px;
-    max-width: 700px;
+    font-size: 1.2rem;
+    max-width: 900px;
     margin: 0 auto;
 }
 
@@ -687,28 +783,6 @@ nav a:hover {
     justify-content: center;
     margin-bottom: 30px;
     flex-wrap: wrap;
-}
-
-.filter-btn {
-    border: none;
-    background: none;
-    color: #555;
-    font-size: 16px;
-    font-weight: 500;
-    padding: 8px 20px;
-    margin: 0 5px 10px;
-    cursor: pointer;
-    border-radius: 30px;
-    transition: all 0.3s ease;
-}
-
-.filter-btn:hover {
-    color: #0099ff;
-}
-
-.filter-btn.active {
-    background-color: #0099ff;
-    color: white;
 }
 
 /* Contact Section Styling */

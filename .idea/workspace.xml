@@ -4,12 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="534b48d0-21e7-4612-b8ba-0bb0df80146c" name="Changes" comment="add the gallery section">
-      <change afterPath="$PROJECT_DIR$/img/gallery/reverston.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/style/media.css" afterDir="false" />
+    <list default="true" id="534b48d0-21e7-4612-b8ba-0bb0df80146c" name="Changes" comment="updated">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/gallery/ex.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style/styleCSS.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/styleCSS.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -177,15 +173,8 @@
       <workItem from="1744205272656" duration="4660000" />
       <workItem from="1744258196971" duration="13896000" />
       <workItem from="1744278801465" duration="820000" />
-      <workItem from="1744346362782" duration="2714000" />
-    </task>
-    <task id="LOCAL-00022" summary="project section css apply part3">
-      <option name="closed" value="true" />
-      <created>1741793112981</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1741793112981</updated>
+      <workItem from="1744346362782" duration="3008000" />
+      <workItem from="1744349490616" duration="1269000" />
     </task>
     <task id="LOCAL-00023" summary="project section css apply part4">
       <option name="closed" value="true" />
@@ -571,7 +560,15 @@
       <option name="project" value="LOCAL" />
       <updated>1744268155795</updated>
     </task>
-    <option name="localTasksCounter" value="71" />
+    <task id="LOCAL-00071" summary="updated">
+      <option name="closed" value="true" />
+      <created>1744349373210</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1744349373211</updated>
+    </task>
+    <option name="localTasksCounter" value="72" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -599,7 +596,6 @@
     <MESSAGE value=" social section part2" />
     <MESSAGE value=" social section img css apply part3" />
     <MESSAGE value=" social section img hover part4" />
-    <MESSAGE value="updated" />
     <MESSAGE value="add the contact field media query" />
     <MESSAGE value="add the social field media query" />
     <MESSAGE value="updated skill section media css code" />
@@ -614,6 +610,7 @@
     <MESSAGE value="color change portfolio" />
     <MESSAGE value="updated navigate option" />
     <MESSAGE value="add the gallery section" />
-    <option name="LAST_COMMIT_MESSAGE" value="add the gallery section" />
+    <MESSAGE value="updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated" />
   </component>
 </project>
