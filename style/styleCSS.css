@@ -12,7 +12,11 @@ html {
 body{
     background: linear-gradient(90deg, rgb(0, 40, 0) 10.8%, rgb(0, 20, 0) 94.3%);
     color: white;
+
+
 }
+
+
 
 /* Home Section */
 #home {
@@ -24,20 +28,36 @@ body{
     text-align: center;
     color: white;
     padding: 100px 20px;
+    position: relative;
+    overflow: hidden;
 }
 
-#home div h1{
+#home div h1 {
     display: inline;
-
+    animation: dropDown 1.2s ease forwards;
+    opacity: 0;
+    transform: translateY(-50px);
 }
 
-#home div h1:nth-child(2){
+#home div h1:nth-child(1) {
+    animation-delay: 0.3s;
+}
+
+#home div h1:nth-child(2) {
     color: rgba(0,255,0,1);
+    animation-delay: 0.6s;
 }
 
-#home div h1:hover,#home div p:hover{
-    color: aqua;
+#home div p {
+    animation: dropDown 1.2s ease forwards;
+    animation-delay: 0.9s;
+    opacity: 0;
+    transform: translateY(-50px);
+}
 
+#home div h1:hover, #home div p:hover {
+    color: aqua;
+    transition: color 0.3s ease;
 }
 
 #home img {
@@ -46,7 +66,8 @@ body{
     position: absolute;
     top: 70px;
     right: 0;
-    /*transform-style: 0.5px;*/
+    animation: fadeIn 1.5s ease forwards;
+    opacity: 0;
 }
 
 #home h1 {
@@ -70,6 +91,10 @@ body{
     color: #fff;
     border: none;
     cursor: pointer;
+    animation: fadeInUp 1s ease forwards;
+    animation-delay: 1.2s;
+    opacity: 0;
+    transform: translateY(20px);
 }
 
 #button:hover::before {
@@ -95,11 +120,54 @@ body{
             82.3deg,
             rgba(0, 255, 0, 1) 10.8%,
             rgba(0, 128, 0, 1) 94.3%
-
     );
     transition: all 0.475s;
 }
 
+/* Animation Keyframes */
+@keyframes dropDown {
+    0% {
+        opacity: 0;
+        transform: translateY(-50px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Optional: Add this for a subtle bounce effect */
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(-20px);
+    }
+    60% {
+        transform: translateY(-10px);
+    }
+}
 
 
 /*navigation bar*/
@@ -244,9 +312,10 @@ nav a:hover {
 }
 #projectContent{
     display: flex;
-    /*justify-content: space-between;*/
 }
-
+#projects .pr>p{
+    color: white;
+}
 #projectContent div {
     /*background: #ffffff1a;*/
     background: linear-gradient(to right, #1a1a1a, #333, #1a1a1a);
@@ -326,7 +395,7 @@ nav a:hover {
     color: black;
 }
 
-/* Assignments Section Styling */
+/* Updated Assignments Section Styling */
 #assignments {
     justify-items: center;
     justify-content: space-around;
@@ -357,51 +426,117 @@ nav a:hover {
     gap: 50px;
 }
 
+/* Updated assignment item with hover effect similar to screenshot */
 .assignment-item {
-    background-color: #90ee90;
+    background-color: #1a1a1a; /* Dark background like in screenshot */
     border-radius: 8px;
-    padding: 25px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    padding: 30px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    transition: all 0.4s ease;
+    position: relative;
+    overflow: hidden;
+    min-height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
-.assignment-item:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 8px 15px black;
+/* Top border line effect */
+.assignment-item::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 20%;
+    right: 20%;
+    height: 3px;
+    background: linear-gradient(90deg, transparent, #28a745, transparent);
+    transform: scaleX(0);
+    transition: transform 0.5s;
 }
 
+/* Bottom border line effect */
+.assignment-item::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 20%;
+    right: 20%;
+    height: 3px;
+    background: linear-gradient(90deg, transparent, #00ff7f, transparent);
+    transform: scaleX(0);
+    transition: transform 0.5s;
+}
+
+.assignment-item:hover::before,
+.assignment-item:hover::after {
+    transform: scaleX(1);
+}
+
+/* Text color and transition for hover effect */
 .assignment-item h3 {
     font-size: 1.4rem;
     margin-bottom: 12px;
-    color: black;
+    color: white;
+    transition: transform 0.4s, color 0.4s;
+    text-align: center;
 }
 
 .assignment-item p {
-    color: darkgreen;
+    color: #b0b0b0;
     margin-bottom: 15px;
     font-size: 1rem;
+    transition: opacity 0.3s, transform 0.4s;
+    text-align: center;
 }
 
 .date {
     display: block;
     font-size: 0.9rem;
-    color: black;
+    color: #909090;
     margin-bottom: 15px;
+    transition: opacity 0.3s, transform 0.4s;
 }
 
 .view-btn {
     display: inline-block;
     padding: 8px 16px;
-    background-color: #3498db;
-    color: white;
+    background-color: transparent;
+    color: #28a745;
     text-decoration: none;
+    border: 1px solid #28a745;
     border-radius: 5px;
     font-size: 0.95rem;
-    transition: background-color 0.2s ease;
+    transition: all 0.3s ease;
+    margin-top: 10px;
+}
+
+/* Hover effects for assignment item */
+.assignment-item:hover {
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+    transform: translateY(-8px);
+}
+
+.assignment-item:hover h3 {
+    color: #ffffff;
+    transform: translateY(-5px);
+}
+
+.assignment-item:hover p,
+.assignment-item:hover .date {
+    opacity: 0.95;
+    transform: translateY(-3px);
 }
 
 .view-btn:hover {
-    background-color: #2980b9;
+    background-color: #28a745;
+    color: white;
+    transform: scale(1.05);
+}
+
+/* For a glowing effect on hover */
+.assignment-item:hover {
+    box-shadow: 0 8px 25px rgba(0, 255, 0, 0.2), 0 8px 25px rgba(0, 128, 0, 0.2);
 }
 
 
@@ -412,7 +547,6 @@ nav a:hover {
     padding: 50px 20px;
     text-align: center;
     position: relative;
-    left: 40px;
 }
 
 #skills h1 {
@@ -428,6 +562,8 @@ nav a:hover {
     justify-content: center;
     align-items: center;
     padding-bottom: 50px;
+    position: relative;
+    left: 60px;
 }
 
 .skill-box {
@@ -467,7 +603,7 @@ nav a:hover {
 }
 
 .container {
-    max-width: 1200px;
+    max-width: 80vw;
     margin: 0 auto;
     padding: 0 20px;
 }
@@ -676,4 +812,3 @@ nav a:hover {
 #social img:hover {
     transform: scale(1.2);
 }
-

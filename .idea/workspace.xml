@@ -4,16 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="534b48d0-21e7-4612-b8ba-0bb0df80146c" name="Changes" comment="updated navigate option">
-      <change afterPath="$PROJECT_DIR$/img/gallery/EsoftYearFestival.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/gallery/HikkaduTrip.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/gallery/IJSEGenesys.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/gallery/batchParty1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/gallery/batchParty2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/gallery/conversation.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/gallery/ex.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/gallery/presentationTime.jpg" afterDir="false" />
+    <list default="true" id="534b48d0-21e7-4612-b8ba-0bb0df80146c" name="Changes" comment="add the gallery section">
+      <change afterPath="$PROJECT_DIR$/img/gallery/reverston.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/style/media.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/gallery/ex.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style/styleCSS.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/styleCSS.css" afterDir="false" />
     </list>
@@ -26,8 +21,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
-        <option value="CSS File" />
         <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -54,33 +49,33 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "JavaScript Debug.index.html.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "style",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/projects/my-portfolio/img/gallery",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;JavaScript Debug.index.html.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;style&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/projects/my-portfolio/img/gallery&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
-      "IgnoreLang",
-      "GitIgnore"
+  &quot;keyToStringList&quot;: {
+    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
+      &quot;IgnoreLang&quot;,
+      &quot;GitIgnore&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\projects\my-portfolio\img\gallery" />
@@ -180,15 +175,9 @@
       <workItem from="1744191861773" duration="709000" />
       <workItem from="1744196417113" duration="1962000" />
       <workItem from="1744205272656" duration="4660000" />
-      <workItem from="1744258196971" duration="9729000" />
-    </task>
-    <task id="LOCAL-00021" summary="project section css apply part2">
-      <option name="closed" value="true" />
-      <created>1741793024111</created>
-      <option name="number" value="00021" />
-      <option name="presentableId" value="LOCAL-00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1741793024111</updated>
+      <workItem from="1744258196971" duration="13896000" />
+      <workItem from="1744278801465" duration="820000" />
+      <workItem from="1744346362782" duration="2714000" />
     </task>
     <task id="LOCAL-00022" summary="project section css apply part3">
       <option name="closed" value="true" />
@@ -574,7 +563,15 @@
       <option name="project" value="LOCAL" />
       <updated>1744264483342</updated>
     </task>
-    <option name="localTasksCounter" value="70" />
+    <task id="LOCAL-00070" summary="add the gallery section">
+      <option name="closed" value="true" />
+      <created>1744268155795</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1744268155795</updated>
+    </task>
+    <option name="localTasksCounter" value="71" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -592,7 +589,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="contact field h1 part2" />
     <MESSAGE value="contact field p part3" />
     <MESSAGE value="contact field h4 part4" />
     <MESSAGE value="contact field all textarea part5" />
@@ -617,6 +613,7 @@
     <MESSAGE value="assignment section updated" />
     <MESSAGE value="color change portfolio" />
     <MESSAGE value="updated navigate option" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated navigate option" />
+    <MESSAGE value="add the gallery section" />
+    <option name="LAST_COMMIT_MESSAGE" value="add the gallery section" />
   </component>
 </project>
