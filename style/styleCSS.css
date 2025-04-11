@@ -1062,9 +1062,8 @@ nav a:hover {
     }
 
     .skills-container {
-        display: flex;
-        grid-template-columns: 1fr;
-        left: 0;
+        grid-template-columns:repeat(6, minmax(20px, 1fr));
+        left: 20px;
     }
 
     .skill-box {
