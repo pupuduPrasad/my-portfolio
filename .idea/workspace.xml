@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="534b48d0-21e7-4612-b8ba-0bb0df80146c" name="Changes" comment="skill-container updated">
+    <list default="true" id="534b48d0-21e7-4612-b8ba-0bb0df80146c" name="Changes" comment="updated">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style/styleCSS.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/styleCSS.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/media.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/media.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -178,14 +179,10 @@
       <workItem from="1744361512082" duration="6069000" />
       <workItem from="1744375172175" duration="7466000" />
       <workItem from="1744390145333" duration="2674000" />
-    </task>
-    <task id="LOCAL-00028" summary="education section apply to css part2">
-      <option name="closed" value="true" />
-      <created>1741793753718</created>
-      <option name="number" value="00028" />
-      <option name="presentableId" value="LOCAL-00028" />
-      <option name="project" value="LOCAL" />
-      <updated>1741793753718</updated>
+      <workItem from="1744460040712" duration="2376000" />
+      <workItem from="1744544496757" duration="1829000" />
+      <workItem from="1745122355936" duration="2751000" />
+      <workItem from="1745153960566" duration="537000" />
     </task>
     <task id="LOCAL-00029" summary="education section apply to css part3(box shadow)">
       <option name="closed" value="true" />
@@ -571,7 +568,15 @@
       <option name="project" value="LOCAL" />
       <updated>1744392007921</updated>
     </task>
-    <option name="localTasksCounter" value="77" />
+    <task id="LOCAL-00077" summary="updated">
+      <option name="closed" value="true" />
+      <created>1744460191656</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1744460191656</updated>
+    </task>
+    <option name="localTasksCounter" value="78" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -612,8 +617,8 @@
     <MESSAGE value="updated navigate option" />
     <MESSAGE value="add the gallery section" />
     <MESSAGE value="responsive 768px size" />
-    <MESSAGE value="updated" />
     <MESSAGE value="skill-container updated" />
-    <option name="LAST_COMMIT_MESSAGE" value="skill-container updated" />
+    <MESSAGE value="updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated" />
   </component>
 </project>
