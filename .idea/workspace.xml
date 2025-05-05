@@ -5,7 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="534b48d0-21e7-4612-b8ba-0bb0df80146c" name="Changes" comment="media query updated">
+      <change afterPath="$PROJECT_DIR$/js/Mail.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/js.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/hambugers.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/media.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/media.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/styleCSS.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/styleCSS.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,8 +21,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
-        <option value="JavaScript File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -52,7 +57,7 @@
     &quot;git-widget-placeholder&quot;: &quot;style&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/projects/my-portfolio/img/gallery&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/Assignments/pos system/ABC-Pos-System-main/ABC-Pos-System-main&quot;,
     &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -181,15 +186,9 @@
       <workItem from="1744544496757" duration="1829000" />
       <workItem from="1745122355936" duration="2751000" />
       <workItem from="1745153960566" duration="537000" />
-      <workItem from="1746104367325" duration="1962000" />
-    </task>
-    <task id="LOCAL-00030" summary="education section apply to css part4">
-      <option name="closed" value="true" />
-      <created>1741794105819</created>
-      <option name="number" value="00030" />
-      <option name="presentableId" value="LOCAL-00030" />
-      <option name="project" value="LOCAL" />
-      <updated>1741794105819</updated>
+      <workItem from="1746104367325" duration="2403000" />
+      <workItem from="1746414950392" duration="13151000" />
+      <workItem from="1746431552546" duration="3268000" />
     </task>
     <task id="LOCAL-00031" summary="education section apply to css part5(img)">
       <option name="closed" value="true" />
@@ -575,7 +574,15 @@
       <option name="project" value="LOCAL" />
       <updated>1746104397443</updated>
     </task>
-    <option name="localTasksCounter" value="79" />
+    <task id="LOCAL-00079" summary="media query updated">
+      <option name="closed" value="true" />
+      <created>1746106351196</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1746106351196</updated>
+    </task>
+    <option name="localTasksCounter" value="80" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

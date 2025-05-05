@@ -12,6 +12,7 @@ html {
 body{
     background: linear-gradient(90deg, rgb(0, 40, 0) 10.8%, rgb(0, 20, 0) 94.3%);
     color: white;
+    overflow-x: hidden;
 }
 
 
@@ -199,6 +200,19 @@ nav a:hover {
     color: #00ffff;
     background: dimgray
 }
+/*.hamburger {*/
+/*    display: none;*/
+/*    flex-direction: column;*/
+/*    cursor: pointer;*/
+/*}*/
+
+/*.hamburger div {*/
+/*    width: 25px;*/
+/*    height: 3px;*/
+/*    background-color: #64ffda;*/
+/*    margin: 3px 0;*/
+/*    transition: all 0.3s ease;*/
+/*}*/
 
 
 /* Fullscreen Section */
@@ -883,4 +897,123 @@ nav a:hover {
 
 #social img:hover {
     transform: scale(1.2);
+}
+
+
+
+/*hamburger*//* Navigation with Hamburger Menu */
+nav {
+    background: rgba(0, 0, 0, 0.8);
+    padding: 15px 20px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo a {
+    color: white;
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+    font-weight: bold;
+    transition: 0.3s;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+nav a:hover {
+    color: #00ffff;
+    background: dimgray;
+}
+
+/* Hamburger Menu Icon */
+.hamburger {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+    z-index: 1001;
+}
+
+.hamburger div {
+    width: 30px;
+    height: 3px;
+    background-color: #90ee90;
+    margin: 6px 0;
+    transition: all 0.3s ease;
+}
+
+/* Mobile Navigation Styles */
+@media screen and (max-width: 768px) {
+    .nav-links {
+        position: fixed;
+        right: -100%;
+        top: 0;
+        height: 100vh;
+        width: 70%;
+        background: rgba(0, 0, 0, 0.95);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        transition: right 0.4s ease-in-out;
+        padding-top: 60px;
+    }
+
+    nav.responsive .nav-links {
+        right: 0;
+    }
+
+    .nav-links a {
+        margin: 15px 0;
+        font-size: 20px;
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+
+    .hamburger {
+        display: flex;
+    }
+
+    /* Animation for hamburger to X */
+    .hamburger.active div:nth-child(1) {
+        transform: rotate(-45deg) translate(-8px, 6px);
+    }
+
+    .hamburger.active div:nth-child(2) {
+        opacity: 0;
+    }
+
+    .hamburger.active div:nth-child(3) {
+        transform: rotate(45deg) translate(-8px, -6px);
+    }
+}
+
+/* Fix for section heights when using the mobile menu */
+@media screen and (max-width: 768px) {
+    #home, #about, #projects, #education, #skills,
+    #gallery-section, #assignments, #contact {
+        height: auto;
+        min-height: 100vh;
+        padding-top: 70px; /* Account for fixed navbar */
+        padding-bottom: 50px;
+    }
 }
