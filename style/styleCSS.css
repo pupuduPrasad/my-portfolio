@@ -346,7 +346,7 @@ nav a:hover {
     background-color: #121212;
     border-radius: 15px;
     overflow: hidden;
-    width: 500px;
+    width: 600px;
     position: relative;
     transition: all 0.4s ease;
     box-shadow: 0 8px 30px rgba(0, 0, 0, 0.7);
@@ -533,7 +533,7 @@ nav a:hover {
 
 .assignment-container {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    grid-template-columns: repeat(3, minmax(280px, 1fr));
     gap: 50px;
 }
 
@@ -547,6 +547,7 @@ nav a:hover {
     position: relative;
     overflow: hidden;
     min-height: 250px;
+    max-width: 400px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -835,7 +836,7 @@ nav a:hover {
     margin: 10px 0 5px;
 }
 
-#contact textarea {
+#contact input,textarea {
     width: 100%;
     padding: 10px;
     font-size: 1rem;
@@ -847,7 +848,7 @@ nav a:hover {
     resize: none;
 }
 
-#contact textarea::placeholder {
+#contact input::placeholder {
     color: rgba(255, 255, 255, 0.7);
 }
 
@@ -871,6 +872,7 @@ nav a:hover {
 
 /* Social Section */
 #social {
+    max-height: 100px;
     text-align: center;
     padding: 5px 10px;
     background: linear-gradient(to right, #1a1a1a, #333, #1a1a1a);
@@ -884,7 +886,7 @@ nav a:hover {
 }
 
 #social a {
-    margin: 10px;
+    margin: 20px;
     display: inline-block;
 }
 
