@@ -155,7 +155,7 @@
     }
 
     #about h1 {
-        font-size: 1.5rem;
+        font-size: 1rem;
     }
 
     #about .content h3 {
@@ -213,89 +213,6 @@
     }
 }
 
-/* Media Query for Mobile Devices - max-width 430px */
-@media (max-width: 430px) {
-    img {
-        max-width: 100%;
-        height: auto;
-    }
-
-    body {
-        font-size: 15px;
-        padding: 10px;
-    }
-
-    nav {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    nav a {
-        font-size: 15px;
-        margin: 5px 0;
-        padding: 8px 12px;
-    }
-
-    #home h1 {
-        font-size: 65px;
-    }
-
-    #home p {
-        font-size: 20px;
-    }
-
-    #home img {
-        top: 60px;
-        max-width: 100%;
-    }
-
-    #button {
-        padding: 0 1rem;
-        height: 2.5rem;
-        font-size: 1rem;
-    }
-
-    #about {
-        flex-direction: column;
-        padding: 20px;
-        height: auto;
-        text-align: center;
-    }
-
-    #about img[alt="profile"] {
-        width: 220px;
-        height: 220px;
-        position: static;
-        margin-bottom: 20px;
-    }
-
-    #about h1 {
-        font-size: 2.5rem;
-    }
-
-    #about .content h3 {
-        font-size: 1.8rem;
-    }
-
-    #about .content p {
-        font-size: 1rem;
-    }
-
-    .skills-container,
-    .assignment-container,
-    #projectContent,
-    #educationContent {
-        grid-template-columns: 1fr;
-        gap: 20px;
-    }
-
-    .skill-box,
-    .assignment-item,
-    .pr,
-    .education-item {
-        width: 100%;
-    }
-}
 
 /* Tablets (431px to 768px) */
 @media screen and (min-width: 431px) and (max-width: 768px) {
@@ -334,7 +251,7 @@
     }
 
     #about h1 {
-        font-size: 3.5rem;
+        font-size: 1.5rem;
     }
 
     #about .content h3 {
@@ -426,6 +343,7 @@
 
     /* About Section */
     #about {
+        height: 80vh;
         gap: 30px;
     }
 
@@ -444,6 +362,10 @@
     }
 
     /* Projects Section */
+    #projects{
+        height: 80vh;
+    }
+
     #projectContent {
         gap: 40px;
     }
@@ -453,6 +375,11 @@
     }
 
     /* Education Section */
+
+    #education{
+        height: 60vh;
+    }
+
     #educationContent {
         gap: 40px;
     }
@@ -462,9 +389,12 @@
     }
 
     /* Skills Section */
+    #skills{
+        height: 60vh;
+    }
     .skills-container {
         grid-template-columns: repeat(2, 1fr);
-        left: -100px;
+        left: 60px;
     }
 
     .skill-box {
@@ -476,12 +406,15 @@
         display: grid;
         grid-template-columns: repeat(2, 1fr);
     }
+    #contact{
+        height: 50vh;
+    }
 }
 
 /* Add hamburger menu for mobile devices */
 @media screen and (max-width: 768px) {
     nav {
-        justify-content: space-between;
+        justify-content: flex-end;
         padding: 15px;
     }
 
