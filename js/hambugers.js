@@ -4,9 +4,7 @@
     const navbar = document.getElementById('navbar');
 
     hamburger.addEventListener('click', function() {
-    // Toggle active class for hamburger animation
     hamburger.classList.toggle('active');
-    // Toggle responsive class for nav
     navbar.classList.toggle('responsive');
 });
 

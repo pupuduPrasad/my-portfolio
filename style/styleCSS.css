@@ -59,16 +59,6 @@ body{
     transition: color 0.3s ease;
 }
 
-#home img {
-    width: 850px;
-    height: 640px;
-    position: absolute;
-    top: 70px;
-    right: 0;
-    animation: fadeIn 1.5s ease forwards;
-    opacity: 0;
-}
-
 #home h1 {
     font-size: 150px;
     margin-bottom: 10px;
@@ -224,8 +214,8 @@ nav a:hover {
     width: 400px;
     height: 500px;
     position: relative;
-    left: -150px;
-    top:60px;
+    left: -40px;
+    top:40px;
     object-fit: cover;
     border-radius: 50%;
     border: 5px solid #90ee90;
@@ -242,6 +232,8 @@ nav a:hover {
 #about .content {
     max-width: 600px;
     text-align: left;
+    position: relative;
+    right: -10px;
 }
 
 #about h1 {
@@ -637,7 +629,6 @@ nav a:hover {
     transform: scale(1.05);
 }
 
-/* For a glowing effect on hover */
 .assignment-item:hover {
     box-shadow: 0 8px 25px rgba(0, 255, 0, 0.2), 0 8px 25px rgba(0, 128, 0, 0.2);
 }
@@ -670,7 +661,7 @@ nav a:hover {
 }
 
 .skill-box {
-    width: 400px;
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -680,10 +671,6 @@ nav a:hover {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
     border: 2px solid rgba(0, 0, 0, 0.5);
     transition: 0.3s;
-}
-
-.skill-box:hover {
-    transform: scale(1.1);
 }
 
 .skill-box img {
@@ -715,7 +702,6 @@ nav a:hover {
 
 .section-title h1 {
     font-size: 4.5rem;
-    /*color: #333;*/
     margin-bottom: 15px;
     font-weight: bold;
 }
@@ -903,7 +889,7 @@ nav a:hover {
 }
 
 .hamburger div {
-    width: 30px;
+    width: 40px;
     height: 3px;
     background-color: #90ee90;
     margin: 6px 0;
@@ -916,7 +902,7 @@ nav a:hover {
         position: fixed;
         right: -100%;
         top: 0;
-        height: 100vh;
+        height: 100%;
         width: 30%;
         background: rgba(0, 0, 0, 0.95);
         display: flex;
@@ -925,7 +911,9 @@ nav a:hover {
         justify-content: center;
         transition: right 0.4s ease-in-out;
         padding-top: 60px;
+
     }
+
 
     nav.responsive .nav-links {
         right: 0;
