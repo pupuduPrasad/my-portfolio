@@ -71,6 +71,33 @@ body{
     margin-bottom: 20px;
 }
 
+.button-container {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.button1 {
+    background: rgba(152, 251, 152, 0.7);
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.button1:hover {
+    background: linear-gradient(135deg, #258828, #1e7e34);
+    color: white;
+}
+
+
+.button-content {
+    font-weight: bold;
+}
+
 #button {
     position: relative;
     overflow: hidden;

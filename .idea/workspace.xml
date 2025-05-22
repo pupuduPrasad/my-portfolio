@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="534b48d0-21e7-4612-b8ba-0bb0df80146c" name="Changes" comment="updated skills">
+    <list default="true" id="534b48d0-21e7-4612-b8ba-0bb0df80146c" name="Changes" comment="updated responsive">
+      <change afterPath="$PROJECT_DIR$/cv/pupuduCV.pdf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style/media.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/media.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style/styleCSS.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/styleCSS.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,35 +47,36 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;JavaScript Debug.index.html.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;style&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;E:/Book/my-portfolio-768f75644650fdc87e881347e28738b1dbe7f2d8/my-portfolio-768f75644650fdc87e881347e28738b1dbe7f2d8&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "JavaScript Debug.index.html.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "style",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/projects/my-portfolio/cv",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
-      &quot;IgnoreLang&quot;,
-      &quot;GitIgnore&quot;
+  "keyToStringList": {
+    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
+      "IgnoreLang",
+      "GitIgnore"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\projects\my-portfolio\cv" />
       <recent name="C:\projects\my-portfolio\img\gallery" />
       <recent name="C:\projects\my-portfolio\img" />
       <recent name="C:\projects\my-portfolio\img\social" />
@@ -199,15 +200,7 @@
       <workItem from="1747885274518" duration="343000" />
       <workItem from="1747900064423" duration="4022000" />
       <workItem from="1747906005493" duration="2688000" />
-      <workItem from="1747919861492" duration="2082000" />
-    </task>
-    <task id="LOCAL-00040" summary="skills-container  updated">
-      <option name="closed" value="true" />
-      <created>1741844915112</created>
-      <option name="number" value="00040" />
-      <option name="presentableId" value="LOCAL-00040" />
-      <option name="project" value="LOCAL" />
-      <updated>1741844915112</updated>
+      <workItem from="1747919861492" duration="6639000" />
     </task>
     <task id="LOCAL-00041" summary="skills-box  hover updated">
       <option name="closed" value="true" />
@@ -593,7 +586,15 @@
       <option name="project" value="LOCAL" />
       <updated>1747908528586</updated>
     </task>
-    <option name="localTasksCounter" value="89" />
+    <task id="LOCAL-00089" summary="updated responsive">
+      <option name="closed" value="true" />
+      <created>1747922018112</created>
+      <option name="number" value="00089" />
+      <option name="presentableId" value="LOCAL-00089" />
+      <option name="project" value="LOCAL" />
+      <updated>1747922018113</updated>
+    </task>
+    <option name="localTasksCounter" value="90" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -611,7 +612,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value=" social section img hover part4" />
     <MESSAGE value="add the contact field media query" />
     <MESSAGE value="add the social field media query" />
     <MESSAGE value="updated skill section media css code" />
@@ -636,6 +636,7 @@
     <MESSAGE value="update hamburger" />
     <MESSAGE value="updated" />
     <MESSAGE value="updated skills" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated skills" />
+    <MESSAGE value="updated responsive" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated responsive" />
   </component>
 </project>
