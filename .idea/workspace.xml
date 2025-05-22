@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="534b48d0-21e7-4612-b8ba-0bb0df80146c" name="Changes" comment="update hamburger">
+    <list default="true" id="534b48d0-21e7-4612-b8ba-0bb0df80146c" name="Changes" comment="updated">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style/media.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/media.css" afterDir="false" />
@@ -197,15 +197,8 @@
       <workItem from="1747842870511" duration="5119000" />
       <workItem from="1747883676344" duration="399000" />
       <workItem from="1747885274518" duration="343000" />
-      <workItem from="1747900064423" duration="2094000" />
-    </task>
-    <task id="LOCAL-00038" summary="Apply CSS to the Skills section Part5(media)">
-      <option name="closed" value="true" />
-      <created>1741795367025</created>
-      <option name="number" value="00038" />
-      <option name="presentableId" value="LOCAL-00038" />
-      <option name="project" value="LOCAL" />
-      <updated>1741795367025</updated>
+      <workItem from="1747900064423" duration="4022000" />
+      <workItem from="1747906005493" duration="2476000" />
     </task>
     <task id="LOCAL-00039" summary="skill section updated">
       <option name="closed" value="true" />
@@ -591,7 +584,15 @@
       <option name="project" value="LOCAL" />
       <updated>1747848869957</updated>
     </task>
-    <option name="localTasksCounter" value="87" />
+    <task id="LOCAL-00087" summary="updated">
+      <option name="closed" value="true" />
+      <created>1747902356155</created>
+      <option name="number" value="00087" />
+      <option name="presentableId" value="LOCAL-00087" />
+      <option name="project" value="LOCAL" />
+      <updated>1747902356159</updated>
+    </task>
+    <option name="localTasksCounter" value="88" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -630,10 +631,10 @@
     <MESSAGE value="media query updated" />
     <MESSAGE value="media query updated and add the hamburger icon" />
     <MESSAGE value="updated contact section" />
-    <MESSAGE value="updated" />
     <MESSAGE value="updated assignment section" />
     <MESSAGE value="updated media query" />
     <MESSAGE value="update hamburger" />
-    <option name="LAST_COMMIT_MESSAGE" value="update hamburger" />
+    <MESSAGE value="updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated" />
   </component>
 </project>

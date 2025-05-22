@@ -93,7 +93,7 @@
         gap: 30px;
         justify-items: center;
         padding-bottom: 50px;
-        left: 0; /* Remove the left offset */
+        left: 35px; /* Remove the left offset */
     }
 
     #gallery-section h1{
@@ -114,7 +114,7 @@
     }
 }
 
-@media (min-width: 375px) and (max-width: 430px){
+@media (min-width: 375px) and (max-width: 431px){
     img {
         max-width: 100%;
         height: auto;
@@ -175,7 +175,6 @@
         font-size: 1rem;
     }
 
-   /* .skills-container,*/
     .assignment-container,
     #projectContent,
     #educationContent {
@@ -198,6 +197,13 @@
     #skills h1{
         font-size: 1.8rem;
 
+    }
+    .skills-container {
+        display: grid;
+        grid-template-columns:repeat( 2,2fr); : 30px;!important;
+        justify-items: center;
+        padding-bottom: 50px;
+        left: 35px; /* Remove the left offset */
     }
 
     .skill-box{
@@ -400,7 +406,7 @@
 
     /* Skills Section */
     #skills{
-        height: 60vh;
+        height: 100vh;
     }
     .skills-container {
         grid-template-columns: repeat(2, 1fr);
