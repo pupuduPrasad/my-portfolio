@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="534b48d0-21e7-4612-b8ba-0bb0df80146c" name="Changes" comment="updated media query">
+    <list default="true" id="534b48d0-21e7-4612-b8ba-0bb0df80146c" name="Changes" comment="update hamburger">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hambugers.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/hambugers.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style/media.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/media.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style/styleCSS.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/styleCSS.css" afterDir="false" />
     </list>
@@ -85,6 +84,21 @@
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\projects\my-portfolio" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="my-portfolio" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="my-portfolio" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -180,15 +194,10 @@
       <workItem from="1747761902935" duration="32000" />
       <workItem from="1747805075194" duration="5580000" />
       <workItem from="1747829618860" duration="5531000" />
-      <workItem from="1747842870511" duration="4569000" />
-    </task>
-    <task id="LOCAL-00037" summary="Apply CSS to the Skills section Part4(hover)">
-      <option name="closed" value="true" />
-      <created>1741795122643</created>
-      <option name="number" value="00037" />
-      <option name="presentableId" value="LOCAL-00037" />
-      <option name="project" value="LOCAL" />
-      <updated>1741795122643</updated>
+      <workItem from="1747842870511" duration="5119000" />
+      <workItem from="1747883676344" duration="399000" />
+      <workItem from="1747885274518" duration="343000" />
+      <workItem from="1747900064423" duration="2094000" />
     </task>
     <task id="LOCAL-00038" summary="Apply CSS to the Skills section Part5(media)">
       <option name="closed" value="true" />
@@ -574,7 +583,15 @@
       <option name="project" value="LOCAL" />
       <updated>1747835154684</updated>
     </task>
-    <option name="localTasksCounter" value="86" />
+    <task id="LOCAL-00086" summary="update hamburger">
+      <option name="closed" value="true" />
+      <created>1747848869957</created>
+      <option name="number" value="00086" />
+      <option name="presentableId" value="LOCAL-00086" />
+      <option name="project" value="LOCAL" />
+      <updated>1747848869957</updated>
+    </task>
+    <option name="localTasksCounter" value="87" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -592,7 +609,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value=" social section part2" />
     <MESSAGE value=" social section img css apply part3" />
     <MESSAGE value=" social section img hover part4" />
     <MESSAGE value="add the contact field media query" />
@@ -617,6 +633,7 @@
     <MESSAGE value="updated" />
     <MESSAGE value="updated assignment section" />
     <MESSAGE value="updated media query" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated media query" />
+    <MESSAGE value="update hamburger" />
+    <option name="LAST_COMMIT_MESSAGE" value="update hamburger" />
   </component>
 </project>

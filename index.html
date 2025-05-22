@@ -13,330 +13,334 @@
 
 </head>
 <body>
+<div class="main">
+    <!--home-->
+    <section id="home" class="animated-section">
+        <div>
+            <h1>Hello,<br>I'm</h1>
+            <h1>Prasad</h1>
+            <p>I'm a software engineer...</p>
 
-<!--home-->
-<section id="home" class="animated-section">
-    <div>
-        <h1>Hello,<br>I'm</h1>
-        <h1>Prasad</h1>
-        <p>I'm a software engineer...</p>
+            <a href="#about">
+                <button id="button" type="button">
+                    <span class="button-content">View My Work</span>
+                </button>
+            </a>
+        </div>
+    </section>
 
-        <a href="#about">
-            <button id="button" type="button">
-                <span class="button-content">View My Work</span>
-            </button>
+    <nav id="navbar">
+
+        <div class="nav-links" id="navLinks">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
+            <a href="#education">Education</a>
+            <a href="#assignments">Assignments</a>
+            <a href="#skills">Skills</a>
+            <a href="#gallery-section">Gallery</a>
+        </div>
+
+        <!-- Hamburger menu icon -->
+        <div class="hamburger" id="hamburgerMenu">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </nav>
+    <br>
+
+    <!--My about-->
+    <section id="about">
+        <!-- Left: Image -->
+        <img src="img/profile.jpg" alt="profile" data-aos="zoom-in-down">
+
+        <!-- Right: Text + Socials -->
+        <div class="content animate__backInDown" >
+            <h1 class="topic">About Me</h1>
+            <h3>Who Is Prasad</h3>
+            <p data-aos="zoom-out">
+                Hi, I’m Pupudu Prasad, a software engineer specializing in web development.
+                I have experience in technologies and enjoy solving complex problems to create efficient, scalable solutions.
+                I’m passionate about learning new technologies and contributing to impactful projects.
+            </p>
+
+
+            <div class="social-icons">
+                <a href="https://www.linkedin.com/in/prasad-jayasinghe-72006331a/" target="_blank" class="social-icon">
+                    <img src="img/social/linkedin.png" alt="LinkedIn">
+                </a>
+                <a href="https://github.com/pupuduPrasad" target="_blank" class="social-icon">
+                    <img src="img/social/github.png" alt="GitHub">
+                </a>
+                <a href="https://web.facebook.com/pupudu.prasad.10/" target="_blank" class="social-icon">
+                    <img src="img/social/facebook.png" alt="Facebook">
+                </a>
+                <a href="mailto:prasadjayasinghe142@gmail.com" class="social-icon">
+                    <img src="img/social/gmail.png" alt="Email">
+                </a>
+                <a href="https://instagram.com/yourprofile" target="_blank" class="social-icon">
+                    <img src="img/social/instagram.png" alt="Instagram">
+                </a>
+            </div>
+        </div>
+    </section>
+
+
+    <!--My project area-->
+    <section id="projects">
+        <h1 class="topic">Projects</h1>
+        <p data-aos="zoom-out-up">In this project section, you'll build a small component-based application that demonstrates the use of CSS Modules for styling. Each UI component should have its own modular CSS file to maintain scoped and reusable styles. The project should reflect best practices in separating structure and design, avoiding global CSS conflicts, and creating a clean, maintainable codebase.</p>
+        <div id="projectContent" >
+            <div class="pr" data-aos="fade-down-right">
+                <h3><i>AI Mini Game-Tic tac toi</i></h3>
+                <img src="img/tic-tac-toe.jpg" alt="tictac">
+                <p>This classic game allows two players to compete by marking Xs and Os on a 3x3 grid, aiming to align three symbols horizontally, vertically, or diagonally. It’s simple, fun, and perfect for sharpening strategic thinking!</p>
+
+            </div>
+            <div class="pr" data-aos="fade-down-right">
+                <h3><i>Event management system App</i></h3>
+                <img src="img/project-management.png" alt="event">
+                <p>An Event Management System is a digital platform designed to plan, organize, and manage events efficiently. It allows users to create events, manage registrations, track attendees, handle ticketing, send notifications, and monitor event progress. Whether for conferences, weddings, concerts, or corporate functions, the system streamlines event logistics and enhances the overall experience for organizers and participants.</p>
+            </div>
+        </div>
+
+    </section>
+    <br>
+    <!--My educations-->
+    <section id="education">
+        <h1 class="topic">Educations</h1>
+        <div id="educationContent">
+            <div class="education-item" data-aos="zoom-in-left">
+                <h3><i>It and English dual Diploma</i></h3>
+                <img src="img/graduation.png" alt="diploma1">
+                <p>
+                    "A dual diploma program designed to enhance both language proficiency and essential soft skills, preparing students for effective communication, leadership, and success in the professional world."</p>
+            </div>
+            <div class="education-item" data-aos="zoom-in-left">
+                <h3><i>Graduate Diploma in  Software Engineering</i></h3>
+                <img src="img/certificate.png" alt="diploma2">
+                <p>"The Graduate Diploma in Software Engineering at IJSE Institute equips students with advanced technical skills in software development, programming, and system design, preparing them for successful careers in the ever-evolving tech industry."</p>
+            </div>
+        </div>
+
+    </section>
+
+    <!--Assignment section-->
+    <section id="assignments">
+        <h1 class="topic">My Assignments</h1>
+
+        <div class="assignment-container" >
+            <div class="assignment-item" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
+                <h3>Assignment 1</h3>
+                <p>Create the Portfolio Sitemap,Mockups,Wire frame,Goals document </p>
+                <span class="date">Completed: February 2025</span>
+                <a href="https://github.com/pupuduPrasad/my-portfolio.git" class="view-btn">View Assignment</a>
+            </div>
+
+            <div class="assignment-item" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom" >
+                <h3>Assignment 2</h3>
+                <p>Learned Css Position (create the design concerning)</p>
+                <span class="date">Completed: March 2025</span>
+                <a href="https://github.com/pupuduPrasad/NetworkModuleAssignment-3.git" class="view-btn">View Assignment</a>
+            </div>
+
+            <div class="assignment-item" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
+                <h3>Assignment 3</h3>
+                <p>transitions and key-frames</p>
+                <span class="date">Completed: March 2025</span>
+                <a href="https://github.com/pupuduPrasad/CSSAssignment4.git" class="view-btn">View Assignment</a>
+            </div>
+
+            <div class="assignment-item" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
+                <h3>Assignment 4</h3>
+                <p>Use your all CSS knowledge to create your website using the mock-up you created.</p>
+                <span class="date">Completed: April 2025</span>
+                <a href="https://github.com/pupuduPrasad/my-portfolio.git" class="view-btn">View Assignment</a>
+            </div>
+
+            <div class="assignment-item" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
+                <h3>Assignment 5</h3>
+                <p>Create a simple POS system UIs to achieve below goals using CSS Frameworks.</p>
+                <span class="date">Completed: April 2025</span>
+                <a href="https://github.com/pupuduPrasad/POSSystem.git" class="view-btn">View Assignment</a>
+            </div>
+
+            <div class="assignment-item" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
+                <h3>Assignment 6</h3>
+                <p>Create a Single Page Application (SPA) using JS.</p>
+                <span class="date">Completed: April 2025</span>
+                <a href="https://github.com/pupuduPrasad/InternetTechnologies-Assignment7-.git" class="view-btn">View Assignment</a>
+            </div>
+
+            <div class="assignment-item" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
+                <h3>Assignment 7</h3>
+                <p>Create the graphical view of a Que Process Using HTML, CSS and JS.</p>
+                <span class="date">Completed: April 2025</span>
+                <a href="https://github.com/pupuduPrasad/InternetTechnologies-Assignment8.git" class="view-btn">View Assignment</a>
+            </div>
+
+            <div class="assignment-item" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
+                <h3>Assignment 8</h3>
+                <p>Create a graphical view of the famous TV Series Knight Rider’s theme light system using HTML, CSS and JS.</p>
+                <span class="date">Completed: April 2025</span>
+                <a href="https://github.com/pupuduPrasad/internetTechnologies-Assignment9.git" class="view-btn">View Assignment</a>
+            </div>
+
+            <div class="assignment-item" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
+                <h3>Assignment 9</h3>
+                <p>POS System</p>
+                <span class="date">Completed: April 2025</span>
+                <a href="https://github.com/pupuduPrasad/InternetTechnologies-Assignment7-.git" class="view-btn">View Assignment</a>
+            </div>
+
+
+
+        </div>
+    </section>
+
+    <!--My skills-->
+    <section id="skills">
+        <h1 class="topic">Skills</h1>
+        <div class="skills-container">
+            <div class="skill-box" data-aos="zoom-out-down">
+                <img src="img/skill/html.png" alt="HTML">
+                <p>HTML</p>
+            </div>
+            <div class="skill-box" data-aos="zoom-out-down">
+                <img src="img/skill/css-3.png" alt="CSS">
+                <p>CSS</p>
+            </div>
+            <div class="skill-box" data-aos="zoom-out-down">
+                <img src="img/skill/java-script.png" alt="JavaScript">
+                <p>JAVASCRIPT</p>
+            </div>
+            <div class="skill-box" data-aos="zoom-out-down">
+                <img src="img/skill/java%20(1).png" alt="Java">
+                <p>JAVA</p>
+            </div>
+            <div class="skill-box" data-aos="zoom-out-down">
+                <img src="img/skill/python.png" alt="Python">
+                <p>PYTHON</p>
+            </div>
+            <div class="skill-box" data-aos="zoom-out-down">
+                <img src="img/skill/github.png" alt="GitHub">
+                <p>GITHUB</p>
+            </div>
+        </div>
+    </section>
+    <br>
+
+    <!-- Gallery Section -->
+    <section id="gallery-section">
+        <div class="container">
+            <div class="section-title">
+                <h1 class="topic">My Gallery</h1>
+                <p data-aos="fade-up"
+                   data-aos-anchor-placement="center-bottom">"A collection of cherished memories and unforgettable moments shared with my closest friends, capturing the essence of laughter, growth, and adventure — the best moments of my life."</p>
+            </div>
+
+            <div class="gallery-grid">
+
+                <div class="gallery-item" data-aos="zoom-out-right">
+                    <img src="img/gallery/presentationTime.jpg" alt="Project 1">
+                    <div class="gallery-info">
+                        <p> Esoft Metro Collage Final Presentation Time/ 2023</p>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-aos="zoom-out-left">
+                    <img src="img/gallery/IJSEGenesys.jpg" alt="Project 2">
+                    <div class="gallery-info">
+                        <p>Ijse Genesys Event Time/ 2023</p>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-aos="zoom-out-right">
+                    <img src="img/gallery/batchParty1.jpg" alt="Project 3">
+                    <div class="gallery-info">
+                        <p>School Batch Party / 2022</p>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-aos="zoom-out-left">
+                    <img src="img/gallery/batchParty2.jpg" alt="Project 4">
+                    <div class="gallery-info">
+                        <p>School Batch Party/ 2022</p>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-aos="zoom-out-right">
+                    <img src="img/gallery/conversation.jpg" alt="Project 5">
+                    <div class="gallery-info">
+                        <p>Esoft Dual Diploma Conversation Time/ 2021</p>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-aos="zoom-out-left">
+                    <img src="img/gallery/EsoftYearFestival.jpg" alt="Project 6">
+                    <div class="gallery-info">
+                        <p>Esoft New Year Function / 2023</p>
+                    </div>
+                </div>
+                <div class="gallery-item" data-aos="zoom-out-right">
+                    <img src="img/gallery/HikkaduTrip.jpg" alt="Project 7">
+                    <div class="gallery-info">
+                        <p>Hikkaduwa beach Trip / 2024</p>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-aos="zoom-out-left">
+                    <img src="img/gallery/reverston.jpg" alt="Project 8">
+                    <div class="gallery-info">
+                        <p>Riverston Trip / 2023</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--contact section-->
+    <section id="contact">
+        <div class="main-content " data-aos="fade-down"
+             data-aos-easing="linear"
+             data-aos-duration="1500">
+            <h1 class="topic">Contact</h1><br>
+            <p>Have a question or want to work together? Leave your details and I'll get back to you as soon as possible.</p>
+
+            <h4 >Name -</h4> <input type="email" name="mail" id="email" placeholder="Email" required>
+            <h4 >Email -</h4> <input type="text" name="subject" id="subject" placeholder="Subject" required>
+            <h4 >Massage -</h4> <textarea class="massage" name="message" id="message" cols="20" rows="3" placeholder="Your Message" required></textarea>
+
+            <button type="Submit" value="send Message">Submit</button>
+        </div>
+
+    </section>
+
+
+    <br>
+    <!--My social-->
+    <section id="social">
+        <!--    <h1 class="topic">Social</h1>-->
+
+        <a href="mailto:prasadjayasinghe142@gmail.com">
+            <img src="img/social/gmail.png" alt="GMAIL">
         </a>
-    </div>
-</section>
+        <a href="https://wa.me/94759778178" target="_blank">
+            <img src="img/social/whatsapp.png" alt="WHATSAPP">
+        </a>
+        <a href="https://github.com/pupuduPrasad" target="_blank">
+            <img src="img/social/github.png" alt="GITHUB">
+        </a>
+        <a href="https://web.facebook.com/pupudu.prasad.10/" target="_blank">
+            <img src="img/social/facebook.png" alt="FACEBOOK">
+        </a>
+        <a href="https://www.linkedin.com/in/prasad-jayasinghe-72006331a/" target="_blank">
+            <img src="img/social/linkedin.png" alt="LINKEDIN">
+        </a>
 
-<nav id="navbar">
+    </section>
+</div>
 
-    <div class="nav-links" id="navLinks">
-        <a href="#home">Home</a>
-        <a href="#about">About</a>
-        <a href="#projects">Projects</a>
-        <a href="#education">Education</a>
-        <a href="#assignments">Assignments</a>
-        <a href="#skills">Skills</a>
-        <a href="#gallery-section">Gallery</a>
-    </div>
-
-    <!-- Hamburger menu icon -->
-    <div class="hamburger" id="hamburgerMenu">
-        <div></div>
-        <div></div>
-        <div></div>
-    </div>
-</nav>
-<br>
-
-<!--My about-->
-<section id="about">
-    <!-- Left: Image -->
-    <img src="img/profile.jpg" alt="profile" data-aos="zoom-in-down">
-
-    <!-- Right: Text + Socials -->
-    <div class="content animate__backInDown" >
-        <h1 class="topic animate__animated animate__rotateInUpRight">About Me</h1>
-        <h3>Who Is Prasad</h3>
-        <p>
-            Hi, I’m Pupudu Prasad, a software engineer specializing in web development.
-            I have experience in technologies and enjoy solving complex problems to create efficient, scalable solutions.
-            I’m passionate about learning new technologies and contributing to impactful projects.
-        </p>
-
-        <div class="social-icons">
-            <a href="https://www.linkedin.com/in/prasad-jayasinghe-72006331a/" target="_blank" class="social-icon">
-                <img src="img/social/linkedin.png" alt="LinkedIn">
-            </a>
-            <a href="https://github.com/pupuduPrasad" target="_blank" class="social-icon">
-                <img src="img/social/github.png" alt="GitHub">
-            </a>
-            <a href="https://web.facebook.com/pupudu.prasad.10/" target="_blank" class="social-icon">
-                <img src="img/social/facebook.png" alt="Facebook">
-            </a>
-            <a href="mailto:prasadjayasinghe142@gmail.com" class="social-icon">
-                <img src="img/social/gmail.png" alt="Email">
-            </a>
-            <a href="https://instagram.com/yourprofile" target="_blank" class="social-icon">
-                <img src="img/social/instagram.png" alt="Instagram">
-            </a>
-        </div>
-    </div>
-</section>
-
-
-<!--My project area-->
-<section id="projects">
-    <h1 class="topic">Projects</h1>
-    <p>In this project section, you'll build a small component-based application that demonstrates the use of CSS Modules for styling. Each UI component should have its own modular CSS file to maintain scoped and reusable styles. The project should reflect best practices in separating structure and design, avoiding global CSS conflicts, and creating a clean, maintainable codebase.</p>
-    <div id="projectContent" >
-        <div class="pr" data-aos="fade-down-right">
-            <h3><i>AI Mini Game-Tic tac toi</i></h3>
-            <img src="img/tic-tac-toe.jpg" alt="tictac">
-            <p>This classic game allows two players to compete by marking Xs and Os on a 3x3 grid, aiming to align three symbols horizontally, vertically, or diagonally. It’s simple, fun, and perfect for sharpening strategic thinking!</p>
-
-        </div>
-        <div class="pr" data-aos="fade-down-right">
-            <h3><i>Event management system App</i></h3>
-            <img src="img/project-management.png" alt="event">
-            <p>An Event Management System is a digital platform designed to plan, organize, and manage events efficiently. It allows users to create events, manage registrations, track attendees, handle ticketing, send notifications, and monitor event progress. Whether for conferences, weddings, concerts, or corporate functions, the system streamlines event logistics and enhances the overall experience for organizers and participants.</p>
-        </div>
-    </div>
-
-</section>
-<br>
-<!--My educations-->
-<section id="education">
-    <h1 class="topic">Educations</h1>
-    <div id="educationContent">
-        <div class="education-item" data-aos="zoom-in-left">
-            <h3><i>It and English dual Diploma</i></h3>
-            <img src="img/graduation.png" alt="diploma1">
-            <p>
-                "A dual diploma program designed to enhance both language proficiency and essential soft skills, preparing students for effective communication, leadership, and success in the professional world."</p>
-        </div>
-        <div class="education-item" data-aos="zoom-in-left">
-            <h3><i>Graduate Diploma in  Software Engineering</i></h3>
-            <img src="img/certificate.png" alt="diploma2">
-            <p>"The Graduate Diploma in Software Engineering at IJSE Institute equips students with advanced technical skills in software development, programming, and system design, preparing them for successful careers in the ever-evolving tech industry."</p>
-        </div>
-    </div>
-
-</section>
-
-<!--Assignment section-->
-<section id="assignments">
-    <h1 class="topic">My Assignments</h1>
-
-    <div class="assignment-container" >
-      <div class="assignment-item" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
-        <h3>Assignment 1</h3>
-        <p>Create the Portfolio Sitemap,Mockups,Wire frame,Goals document </p>
-        <span class="date">Completed: February 2025</span>
-        <a href="https://github.com/pupuduPrasad/my-portfolio.git" class="view-btn">View Assignment</a>
-      </div>
-
-      <div class="assignment-item" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom" >
-        <h3>Assignment 2</h3>
-        <p>Learned Css Position (create the design concerning)</p>
-        <span class="date">Completed: March 2025</span>
-        <a href="https://github.com/pupuduPrasad/NetworkModuleAssignment-3.git" class="view-btn">View Assignment</a>
-      </div>
-
-      <div class="assignment-item" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
-        <h3>Assignment 3</h3>
-        <p>transitions and key-frames</p>
-        <span class="date">Completed: March 2025</span>
-        <a href="https://github.com/pupuduPrasad/CSSAssignment4.git" class="view-btn">View Assignment</a>
-      </div>
-
-      <div class="assignment-item" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
-        <h3>Assignment 4</h3>
-        <p>Use your all CSS knowledge to create your website using the mock-up you created.</p>
-        <span class="date">Completed: April 2025</span>
-        <a href="https://github.com/pupuduPrasad/my-portfolio.git" class="view-btn">View Assignment</a>
-      </div>
-
-        <div class="assignment-item" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
-        <h3>Assignment 5</h3>
-        <p>Create a simple POS system UIs to achieve below goals using CSS Frameworks.</p>
-        <span class="date">Completed: April 2025</span>
-        <a href="https://github.com/pupuduPrasad/POSSystem.git" class="view-btn">View Assignment</a>
-      </div>
-
-        <div class="assignment-item" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
-        <h3>Assignment 6</h3>
-        <p>Create a Single Page Application (SPA) using JS.</p>
-        <span class="date">Completed: April 2025</span>
-        <a href="https://github.com/pupuduPrasad/InternetTechnologies-Assignment7-.git" class="view-btn">View Assignment</a>
-      </div>
-
-        <div class="assignment-item" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
-        <h3>Assignment 7</h3>
-        <p>Create the graphical view of a Que Process Using HTML, CSS and JS.</p>
-        <span class="date">Completed: April 2025</span>
-        <a href="https://github.com/pupuduPrasad/InternetTechnologies-Assignment8.git" class="view-btn">View Assignment</a>
-      </div>
-
-        <div class="assignment-item" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
-        <h3>Assignment 8</h3>
-        <p>Create a graphical view of the famous TV Series Knight Rider’s theme light system using HTML, CSS and JS.</p>
-        <span class="date">Completed: April 2025</span>
-        <a href="https://github.com/pupuduPrasad/internetTechnologies-Assignment9.git" class="view-btn">View Assignment</a>
-      </div>
-
-        <div class="assignment-item" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
-        <h3>Assignment 9</h3>
-        <p>POS System</p>
-        <span class="date">Completed: April 2025</span>
-        <a href="https://github.com/pupuduPrasad/InternetTechnologies-Assignment7-.git" class="view-btn">View Assignment</a>
-      </div>
-
-
-
-    </div>
-  </section>
-
-<!--My skills-->
-<section id="skills">
-    <h1 class="topic">Skills</h1>
-    <div class="skills-container">
-        <div class="skill-box" data-aos="zoom-out-down">
-            <img src="img/skill/html.png" alt="HTML">
-            <p>HTML</p>
-        </div>
-        <div class="skill-box" data-aos="zoom-out-down">
-            <img src="img/skill/css-3.png" alt="CSS">
-            <p>CSS</p>
-        </div>
-        <div class="skill-box" data-aos="zoom-out-down">
-            <img src="img/skill/java-script.png" alt="JavaScript">
-            <p>JAVASCRIPT</p>
-        </div>
-        <div class="skill-box" data-aos="zoom-out-down">
-            <img src="img/skill/java%20(1).png" alt="Java">
-            <p>JAVA</p>
-        </div>
-        <div class="skill-box" data-aos="zoom-out-down">
-            <img src="img/skill/python.png" alt="Python">
-            <p>PYTHON</p>
-        </div>
-        <div class="skill-box" data-aos="zoom-out-down">
-            <img src="img/skill/github.png" alt="GitHub">
-            <p>GITHUB</p>
-        </div>
-    </div>
-</section>
-<br>
-
-<!-- Gallery Section -->
-<section id="gallery-section">
-    <div class="container">
-        <div class="section-title">
-            <h1 class="topic">My Gallery</h1>
-            <p>"A collection of cherished memories and unforgettable moments shared with my closest friends, capturing the essence of laughter, growth, and adventure — the best moments of my life."</p>
-        </div>
-
-        <div class="gallery-grid">
-
-            <div class="gallery-item" data-aos="zoom-out-right">
-                <img src="img/gallery/presentationTime.jpg" alt="Project 1">
-                <div class="gallery-info">
-                    <p> Esoft Metro Collage Final Presentation Time/ 2023</p>
-                </div>
-            </div>
-
-            <div class="gallery-item" data-aos="zoom-out-left">
-                <img src="img/gallery/IJSEGenesys.jpg" alt="Project 2">
-                <div class="gallery-info">
-                    <p>Ijse Genesys Event Time/ 2023</p>
-                </div>
-            </div>
-
-            <div class="gallery-item" data-aos="zoom-out-right">
-                <img src="img/gallery/batchParty1.jpg" alt="Project 3">
-                <div class="gallery-info">
-                    <p>School Batch Party / 2022</p>
-                </div>
-            </div>
-
-            <div class="gallery-item" data-aos="zoom-out-left">
-                <img src="img/gallery/batchParty2.jpg" alt="Project 4">
-                <div class="gallery-info">
-                    <p>School Batch Party/ 2022</p>
-                </div>
-            </div>
-
-            <div class="gallery-item" data-aos="zoom-out-right">
-                <img src="img/gallery/conversation.jpg" alt="Project 5">
-                <div class="gallery-info">
-                    <p>Esoft Dual Diploma Conversation Time/ 2021</p>
-                </div>
-            </div>
-
-            <div class="gallery-item" data-aos="zoom-out-left">
-                <img src="img/gallery/EsoftYearFestival.jpg" alt="Project 6">
-                <div class="gallery-info">
-                    <p>Esoft New Year Function / 2023</p>
-                </div>
-            </div>
-            <div class="gallery-item" data-aos="zoom-out-right">
-                <img src="img/gallery/HikkaduTrip.jpg" alt="Project 7">
-                <div class="gallery-info">
-                    <p>Hikkaduwa beach Trip / 2024</p>
-                </div>
-            </div>
-
-            <div class="gallery-item" data-aos="zoom-out-left">
-                <img src="img/gallery/reverston.jpg" alt="Project 8">
-                <div class="gallery-info">
-                    <p>Riverston Trip / 2023</p>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<!--contact section-->
-<section id="contact">
-    <div class="main-content " data-aos="fade-down"
-         data-aos-easing="linear"
-         data-aos-duration="1500">
-        <h1 class="topic">Contact</h1><br>
-        <p>Have a question or want to work together? Leave your details and I'll get back to you as soon as possible.</p>
-
-        <h4 >Name -</h4> <input type="email" name="mail" id="email" placeholder="Email" required>
-        <h4 >Email -</h4> <input type="text" name="subject" id="subject" placeholder="Subject" required>
-        <h4 >Massage -</h4> <textarea class="massage" name="message" id="message" cols="20" rows="3" placeholder="Your Message" required></textarea>
-
-        <button type="Submit" value="send Message">Submit</button>
-    </div>
-
-</section>
-
-
-<br>
-<!--My social-->
-<section id="social">
-    <!--    <h1 class="topic">Social</h1>-->
-
-    <a href="mailto:prasadjayasinghe142@gmail.com">
-        <img src="img/social/gmail.png" alt="GMAIL">
-    </a>
-    <a href="https://wa.me/94759778178" target="_blank">
-        <img src="img/social/whatsapp.png" alt="WHATSAPP">
-    </a>
-    <a href="https://github.com/pupuduPrasad" target="_blank">
-        <img src="img/social/github.png" alt="GITHUB">
-    </a>
-    <a href="https://web.facebook.com/pupudu.prasad.10/" target="_blank">
-        <img src="img/social/facebook.png" alt="FACEBOOK">
-    </a>
-    <a href="https://www.linkedin.com/in/prasad-jayasinghe-72006331a/" target="_blank">
-        <img src="img/social/linkedin.png" alt="LINKEDIN">
-    </a>
-
-</section>
 
 <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
 <script src="js/Mail.js"></script>

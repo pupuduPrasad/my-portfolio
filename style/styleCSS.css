@@ -3,10 +3,13 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Courier New', monospace;
+    /*overflow-x: hidden;*/
     font-weight: bold;
 }
 html {
     scroll-behavior: smooth;
+    overflow-x: hidden;
+
 }
 
 body{
@@ -164,7 +167,7 @@ nav {
     background: rgba(0, 0, 0, 0.8);
     padding: 15px 0;
     position: fixed;
-    width: 100%;
+    width: 100vw;
     top: 0;
     left: 0;
     z-index: 1000;
@@ -657,7 +660,7 @@ nav a:hover {
     align-items: center;
     padding-bottom: 50px;
     position: relative;
-    left: 60px;
+    /*left: 60px;*/
 }
 
 .skill-box {
@@ -886,6 +889,7 @@ nav a:hover {
     flex-direction: column;
     cursor: pointer;
     z-index: 1001;
+    margin-right: 20px;
 }
 
 .hamburger div {
@@ -903,7 +907,7 @@ nav a:hover {
         right: -100%;
         top: 0;
         height: 100%;
-        width: 30%;
+        width: 40%;
         background: rgba(0, 0, 0, 0.95);
         display: flex;
         flex-direction: column;
